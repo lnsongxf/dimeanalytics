@@ -92,7 +92,7 @@ When you submit a working paper for internal review, DIME Analytics will support
     - The data required to produce the results
     - The TeX file that compiles the tables and figures (if applicable) 
 
-## Review Requirements
+#### Review Requirements
 
 DIME Analytics will edit *only* the top-level directory global in the master do-file and run it to reproduce the results. This portion of the code should be marked out as illustrated below:
 
