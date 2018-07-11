@@ -22,11 +22,11 @@ DIME Analytics administers the [World Bank's enterprise subscription with Survey
 
 DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/), which allows the creation of private repositories. Here's how it's done:
 
-### 1. Create a GitHub account
+**1. Create a GitHub account**
 
 - If you do not already have a GitHub account, open one at [this link](https://github.com/join?source=header-home). You don't need to use your World Bank e-mail and you can use an account you already have as a member of this group.
 
-### 2. Join the World Bank GitHub group
+**2. Join the World Bank GitHub group**
 
 - Complete the GitHub pilot MOU below, and email it to the World Bank GitHub team (github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]". They will add you to the group and notify you.
 
@@ -49,7 +49,7 @@ Name:
 Github account name:
 ```
 
-### 3. Create your repositories
+**3. Create your repositories**
 
 - To create a repository in the World Bank GitHub group, send the following email to your manager and to github@worldbank.org with the subject line "Approval Required: Create GitHub Repository [NAME]".
 
@@ -75,7 +75,7 @@ Manager's Name:
 
 - If the content of the repository can be public, it's occasionally easier to create it using your personal account. However, if you are creating a repo to share commands, or templates, or apps created as part of your project, or the replication folder for a paper, you may want it to be linked to the World Bank group so people can find it without having to look for your username.
 
-### 4. Clone the GitHub repo to your computer
+**4. Clone the GitHub repo to your computer**
 
 - Click `Clone or download` on your repo's main page, then `Open in Desktop` and `Allow`. It's best practice to have your GitHub folder on your local computer, not in Dropbox, and sync changes using GitHub Desktop. If you insist on having this folder on Dropbox, please get in touch with the Data Coordinators to discuss the details on how to do it.
 
@@ -92,7 +92,7 @@ When you submit a working paper for internal review, DIME Analytics will support
     - The data required to produce the results
     - The TeX file that compiles the tables and figures (if applicable) 
 
-### Review Requirements
+**Review Requirements**
 
 DIME Analytics will edit *only* the top-level directory global in the master do-file and run it to reproduce the results. This portion of the code should be marked out as illustrated below:
 
@@ -126,7 +126,7 @@ DIME Analytics will edit *only* the top-level directory global in the master do-
 ```
 The order of the outputted tables and figures should be obvious from the way they are named and organized. The Analytics Team will return to you a list of reproducibility issues if any occur, as well as general (major and minor) suggestions for code improvements and places where existing programs can save time and effort for your future work, just as in a peer review.
 
-### Public Release
+**Public Release**
 
 Once this is complete, if you desire we will organize a public release repository on GitHub ([such as this example](https://github.com/worldbank/Water-When-It-Counts)). This will contain all the files needed to reproduce the results, including a version of the datasets you provide, stripped to contain only the variables needed for analysis (using [exportCodebook](https://github.com/worldbank/stata/tree/master/src/exportCodebook)). *Please let us know if any other data may not be publicly released so we can remove the appropriate materials from the repository!* We will share a private repository with you once it is created, and make it public once the working paper is released.
 
@@ -143,8 +143,8 @@ The project review is conducted by another RA or FC, and people submitting their
 
 Project code review is currently being piloted but is expected to happen once a month. Participants will be asked to share their codes with the reviewer on a given date and will have a week to review their assigned project, following a guidelines provided by DIME Analytics. 
 
-### [Sign up a project for next round of code review](https://docs.google.com/forms/d/e/1FAIpQLScW1Holg5UjaA5F_kJ8Ga47eAV_zHE6JCGLot7DNOSraFMoFQ/viewform?usp=sf_link)
-### [Code review instructions](https://github.com/worldbank/DIMEwiki/wiki/How-does-it-work%3F)
+**[Sign up a project for next round of code review](https://docs.google.com/forms/d/e/1FAIpQLScW1Holg5UjaA5F_kJ8Ga47eAV_zHE6JCGLot7DNOSraFMoFQ/viewform?usp=sf_link)**
+**[Code review instructions](https://github.com/worldbank/DIMEwiki/wiki/How-does-it-work%3F)**
 
 ## Trainings
 
