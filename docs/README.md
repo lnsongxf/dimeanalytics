@@ -133,7 +133,7 @@ Once this is complete, if you desire we will organize a public release repositor
 ## Peer Code Review
 
 It is also possible to request a review of a Research Assistant or Field Coordinator's code during the development of a project. This is recommended when a project milestone is reached, such as
-- **Handing over a project**
+- Handing over a project
 - Finishing code for sampling and/or randomization
 - Finishing the cleaning of a round of data collection
 - Finalizing data analysis for a paper or report
@@ -182,6 +182,17 @@ The [LaTeX Templates Library](https://github.com/worldbank/DIME-LaTeX-Templates)
 
 # External Resources
 
-## Stata
-
-## Methods
+* [Exporting Tables](http://ageconsearch.umn.edu/bitstream/122600/2/sjart_dm0037.pdf)
+* [Stata Cheat Sheets](https://geocenter.github.io/StataTraining/portfolio/01_resource/)
+* [J-PAL/IPA Resources](https://www.povertyactionlab.org/research-resources)
+* [Data Visualization Intro](http://socviz.co)
+* [Stata Graphics Guide](https://www.ucm.es/data/cont/docs/430-2015-06-22-Mitchell(2004),%20A%20Visual%20Guide%20to%20Stata%20Graphics.pdf)
+* [FT Chart Doctor](http://ft.com/vocabulary)
+* [IE in Practice Book](http://www.worldbank.org/en/programs/sief-trust-fund/publication/impact-evaluation-in-practice)
+* [SSC Stata Commands](https://ideas.repec.org/s/boc/bocode.html)
+* [UCLA Stata Tutorials](https://stats.idre.ucla.edu/stata/modules/)
+    * [UCLA Visual Library](https://stats.idre.ucla.edu/stata/modules/graph8/twoway/)
+* [Stata Video Library](https://blog.stata.com/2017/11/15/data-management-made-easy/)
+* [Speaking Stata Library](http://www.stata-journal.com/sjsearch.html?choice=keyword&q=speaking)
+* [SurveyCTO Help Library](https://www.surveycto.com/support/video-library.html)
+* [EGAP Methods Guides](http://egap.org/list-methods-guides)
