@@ -1,6 +1,6 @@
 # Welcome to DIME Analytics!
 
-This website is the GitHub home of DIME Analytics. It is meant to serve as a guide to the services DIME Analytics offers DIME team members. For questions not answered here, please contact dimeanalytics@worldbank.org. If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K). If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics). All other materials and resources are located below.
+This website is the GitHub home of DIME Analytics. It is meant to serve as a guide to the services DIME Analytics offers DIME team members. For questions not answered here, please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org). If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K). If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics). All other materials and resources are located below.
 
 DIME Analytics supports research workflows and best practices at DIME and creates public goods to increase the research quality for impact evaluation and development economics generally. In 2016, DIME staff supervised 15 baseline surveys and 22 follow-up surveys representing over $7.5 million in client executed funds. DIME Analytics supports DIME projects directly through training, code review and reproducibility support, and technology solutions.
 
@@ -12,7 +12,11 @@ Our team gathers, documents, standardizes and disseminates these produces and pr
 
 ### New Hire Testing and Onboarding
 
+DIME Analytics has recently concluded the Spring 2018 Recruitment Drive. Until the next Recruitment Drive launches, we supports the ad-hoc administration of the DIME Technical Tests for Research Assistant and Field Coordinator candidates as needed. Please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) for more details.
+
 ### World Bank SurveyCTO Enterprise Server
+
+DIME Analytics administers the World Bank's enterprise subscription with SurveyCTO. This installation is available to all Bank teams at a discount from the retail subscription and uses Bank single-sign-on when possible as well as allowing external email accounts. Please review the [World Bank SutveyCTO Documentation](https://showcase.dropbox.com/s/WBG-SurveyCTO-Documentation-HZN82ovmFR0hpnnsLYdns) and use eServices to request a server. To be added to the DIME Team for survey template sharing, please contact DIME Analytics.
 
 ### World Bank GitHub
 
