@@ -20,7 +20,7 @@ DIME Analytics administers the [World Bank's enterprise subscription with Survey
 
 ## World Bank GitHub
 
-DIME team members can join the World Bank GitHub group, which allows the creation of private repositories. Here's how it's done:
+DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/), which allows the creation of private repositories. Here's how it's done:
 
 ### 1. Create a GitHub account
 
