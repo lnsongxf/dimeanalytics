@@ -10,7 +10,7 @@ Our team gathers, documents, standardizes and disseminates these produces and pr
 
 # DIME Analytics Services
 
-## New Hire Testing
+## Hiring Support
 
 DIME Analytics has recently concluded the Spring 2018 Recruitment Drive. Until the next Recruitment Drive launches, we supports the ad-hoc administration of the DIME Technical Tests for Research Assistant and Field Coordinator candidates as needed. Please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) for more details.
 
