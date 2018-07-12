@@ -24,7 +24,7 @@ DIME team members can join the [World Bank GitHub group](https://github.com/worl
 
 **2. Join the World Bank GitHub group**
 
-- Complete the GitHub pilot MOU below, and email it to the World Bank GitHub team (github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]". They will add you to the group and notify you.
+- Complete the GitHub pilot MOU below, and email it to the World Bank GitHub team at [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]". They will add you to the group and notify you.
 
 ```
 World Bank Group Staff Github.com Pilot MOU:
@@ -47,7 +47,7 @@ Github account name:
 
 **3. Create your repositories**
 
-- To create a repository in the World Bank GitHub group, send the following email to your manager and to github@worldbank.org with the subject line "Approval Required: Create GitHub Repository [NAME]".
+- To create a repository in the World Bank GitHub group, send the following email to your manager and to [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Approval Required: Create GitHub Repository [NAME]".
 
 ```
 Hi [MANAGER], can you please approve the following request for GitHub repository creation:
