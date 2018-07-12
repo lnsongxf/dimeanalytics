@@ -158,7 +158,7 @@ The [DIME Wiki](http://dimewiki.worldbank.org) is a one-stop shop for [practical
  
 Cross-cutting resources focus on advice for immediately operationalizing the more abstract articles, with concrete code examples and ready-for-field (printable) checklists. For example, Randomization in SurveyCTO notes that randomization in SurveyCTO is not best practice because of lack of reproducibility, and gives extensive code examples on how to accomplish this in Stata instead.  Other pages, like ieduplicates, provide extensive documentation for quality-assurance code packages we have authored. Visit the DIME Wiki, create an account, and start editing!
 
-## Annual Training
+## Annual FC Training
 
 [Manage Successful Impact Evaluations](http://www.worldbank.org/en/events/2018/04/09/manage-successful-impact-evaluations) is DIME's annual course designed for staff and short-term consultants responsible for managing impact evaluations in the field. The workshop is intended to improve the skills and knowledge of impact evaluation (IE) practitioners, familiarizing them with critical issues in IE implementation, recurring challenges, and cutting-edge technologies. The course covers impact evaluation tools and concepts, but the primary focus is on how to successfully manage impact evaluations in the field. Morning sessions consist of lectures and small group discussions, in which participants work together to apply what they’ve learned to an impact evaluation case study. Afternoon sessions will be interactive computer-based lab sessions, giving participants a first-hand opportunity to develop skills. Lab sessions will be offered in parallel tracks, with different options based on software preferences and skill level.
 
