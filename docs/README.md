@@ -1,4 +1,4 @@
-# Welcome to DIME Analytics!
+# DIME Analytics
 
 This website is the GitHub home of DIME Analytics. It is meant to serve as a guide to the services DIME Analytics offers DIME team members. For questions not answered here, please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org). If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K). If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics). All other materials and resources are located below.
 
@@ -10,11 +10,11 @@ Our team gathers, documents, standardizes and disseminates these produces and pr
 
 # DIME Analytics Services
 
-## New Hire Testing and Onboarding
+## New Hire Testing
 
 DIME Analytics has recently concluded the Spring 2018 Recruitment Drive. Until the next Recruitment Drive launches, we supports the ad-hoc administration of the DIME Technical Tests for Research Assistant and Field Coordinator candidates as needed. Please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) for more details.
 
-## World Bank SurveyCTO Enterprise Server
+## World Bank SurveyCTO
 
 DIME Analytics administers the [World Bank's enterprise subscription with SurveyCTO](https://survey.wb.surveycto.com/). This installation is available to all Bank teams at a discount from the retail subscription and uses Bank single-sign-on when possible as well as allowing external email accounts. Please review the [World Bank SurveyCTO Documentation](https://showcase.dropbox.com/s/WBG-SurveyCTO-Documentation-HZN82ovmFR0hpnnsLYdns) and use eServices to request a server. To be added to the DIME Team for survey template sharing, please contact DIME Analytics.
 
@@ -81,7 +81,9 @@ Manager's Name:
 
 - [This presentation](https://www.dropbox.com/s/mvf895eofw0ok3o/Git.pdf?raw=1) gives full details on how to sync a Git repo for the first time. 
 
-## Pre-publication Code Review
+## Code Review
+
+**Pre-publication Code Review**
 
 When you submit a working paper for internal review, DIME Analytics will support review and release of the reproduction data and code via the [World Bank GitHub](https://github.com/worldbank). The goal is to ensure that working papers by DIME are fully reproducible. To complete this review, please submit the following to [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) alongside the submission of the working paper to the peer review process (currently organized by Dan Rogger):
 
@@ -130,7 +132,7 @@ The order of the outputted tables and figures should be obvious from the way the
 
 Once this is complete, if you desire we will organize a public release repository on GitHub ([such as this example](https://github.com/worldbank/Water-When-It-Counts)). This will contain all the files needed to reproduce the results, including a version of the datasets you provide, stripped to contain only the variables needed for analysis (using [exportCodebook](https://github.com/worldbank/stata/tree/master/src/exportCodebook)). *Please let us know if any other data may not be publicly released so we can remove the appropriate materials from the repository!* We will share a private repository with you once it is created, and make it public once the working paper is released.
 
-## Peer Code Review
+**Peer Code Review**
 
 It is also possible to request a review of a Research Assistant or Field Coordinator's code during the development of a project. This is recommended when a project milestone is reached, such as
 - Handing over a project
@@ -156,7 +158,7 @@ The [DIME Wiki](http://dimewiki.worldbank.org) is a one-stop shop for [practical
  
 Cross-cutting resources focus on advice for immediately operationalizing the more abstract articles, with concrete code examples and ready-for-field (printable) checklists. For example, Randomization in SurveyCTO notes that randomization in SurveyCTO is not best practice because of lack of reproducibility, and gives extensive code examples on how to accomplish this in Stata instead.  Other pages, like ieduplicates, provide extensive documentation for quality-assurance code packages we have authored. Visit the DIME Wiki, create an account, and start editing!
 
-## Manage Successful Impact Evaluations
+## Annual Training
 
 [Manage Successful Impact Evaluations](http://www.worldbank.org/en/events/2018/04/09/manage-successful-impact-evaluations) is DIME's annual course designed for staff and short-term consultants responsible for managing impact evaluations in the field. The workshop is intended to improve the skills and knowledge of impact evaluation (IE) practitioners, familiarizing them with critical issues in IE implementation, recurring challenges, and cutting-edge technologies. The course covers impact evaluation tools and concepts, but the primary focus is on how to successfully manage impact evaluations in the field. Morning sessions consist of lectures and small group discussions, in which participants work together to apply what they’ve learned to an impact evaluation case study. Afternoon sessions will be interactive computer-based lab sessions, giving participants a first-hand opportunity to develop skills. Lab sessions will be offered in parallel tracks, with different options based on software preferences and skill level.
 
