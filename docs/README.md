@@ -1,7 +1,5 @@
 # DIME Analytics
 
-This website is the home of DIME Analytics. 
-
 __← The sidebar__ has navigation links to all services we offer.
 
 - If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K). 
