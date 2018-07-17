@@ -1,6 +1,10 @@
 # DIME Analytics
 
-This website is the GitHub home of DIME Analytics. It is meant to serve as a guide to the services DIME Analytics offers DIME team members. For questions not answered here, please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org). If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K). If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics). All other materials and resources are located below.
+This website is the home of DIME Analytics. You can navigate to any service we offer using the __← sidebar__.
+
+- If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K). 
+- If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics). 
+- For questions not answered here, please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org). All other materials and resources are located on this page.
 
 DIME Analytics supports research workflows and best practices at DIME and creates public goods to increase the research quality for impact evaluation and development economics generally. In 2016, DIME staff supervised 15 baseline surveys and 22 follow-up surveys representing over $7.5 million in client executed funds. DIME Analytics supports DIME projects directly through training, code review and reproducibility support, and technology solutions.
 
