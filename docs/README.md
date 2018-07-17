@@ -1,6 +1,7 @@
 # DIME Analytics
 
-This website is the home of DIME Analytics. You can navigate to any service we offer using the __← sidebar__.
+This website is the home of DIME Analytics. 
+__← The sidebar__ has navigation links to all services we offer.
 
 - If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K). 
 - If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics). 
