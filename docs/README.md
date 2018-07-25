@@ -18,6 +18,8 @@ Our team gathers, documents, standardizes and disseminates these produces and pr
 
 DIME Analytics administers the [World Bank's enterprise subscription with SurveyCTO](https://survey.wb.surveycto.com/). This installation is available to all Bank teams at a discount from the retail subscription and uses Bank single-sign-on when possible as well as allowing external email accounts. Please review the [World Bank SurveyCTO Documentation](https://showcase.dropbox.com/s/WBG-SurveyCTO-Documentation-HZN82ovmFR0hpnnsLYdns) and use eServices to request a server. To be added to the DIME Team for survey template sharing, please contact DIME Analytics.
 
+[The custom version of the Sync client required for downloading data is available here.](http://ed10desktop.worldbank.org/default.asp?category=packages&page=packageview&pkgno=AWBG10177)
+
 ## World Bank GitHub
 
 DIME-based projects are encouraged to use Git, a [version control](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) software, for maintaining code projects. To support this, DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/), and the desktop clients [GitHub Desktop](https://desktop.github.com) and [GitKraken (recommended)](https://www.gitkraken.com) are supported on World Bank computers. They allow simultaneous editing and execution of code files, including merging workstreams without conflicts, unlike Dropbox.
