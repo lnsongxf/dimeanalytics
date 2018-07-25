@@ -20,10 +20,7 @@ DIME Analytics administers the [World Bank's enterprise subscription with Survey
 
 ## World Bank GitHub
 
-DIME-based projects are encouraged to use Git, a [version control](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) software, for maintaining code projects. To support this, DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/), and the desktop clients [GitHub Desktop](https://desktop.github.com) and [GitKraken (recommended)](https://www.gitkraken.com) are supported on World Bank computers. They allow simultaneous editing and execution of code files, including merging workstreams without conflicts, unlike Dropbox:
-
-![GitKraken](https://github.com/worldbank/dimeanalytics/blob/master/docs/Screenshot%202018-07-25%2011.38.19.png?raw=true)
-
+DIME-based projects are encouraged to use Git, a [version control](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) software, for maintaining code projects. To support this, DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/), and the desktop clients [GitHub Desktop](https://desktop.github.com) and [GitKraken (recommended)](https://www.gitkraken.com) are supported on World Bank computers. They allow simultaneous editing and execution of code files, including merging workstreams without conflicts, unlike Dropbox.
 Here's how to sign up:
 
 **1. Create a GitHub account**
