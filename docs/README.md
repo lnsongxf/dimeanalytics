@@ -20,18 +20,22 @@ DIME Analytics administers the [World Bank's enterprise subscription with Survey
 
 ## World Bank GitHub
 
-DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/), which allows the creation of private repositories. Here's how it's done:
+DIME-based projects are encouraged to use Git, a [version control](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) software, for maintaining code projects. To support this, DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/), and the desktop clients [GitHub Desktop](https://desktop.github.com) and [GitKraken (recommended)](https://www.gitkraken.com) are supported on World Bank computers:
+
+![GitKraken](https://github.com/worldbank/dimeanalytics/blob/master/docs/Screenshot%202018-07-25%2011.38.19.png?raw=true)
+
+Here's how to sign up:
 
 **1. Create a GitHub account**
 
-- If you do not already have a GitHub account, open one at [this link](https://github.com/join?source=header-home). You don't need to use your World Bank e-mail and you can use an account you already have as a member of this group.
+- If you do not already have a GitHub account, open one at [this link](https://github.com/join?source=header-home). You don't need to use your World Bank e-mail and you can use an account you already have to become a member of this group.
 
 **2. Join the World Bank GitHub group**
 
-- Complete the GitHub pilot MOU below, and email it to the World Bank GitHub team at [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]". They will add you to the group and notify you.
+- Complete the World Bank GitHub.com Pilot MOU below, and email it to the World Bank GitHub team at [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]". They will add you to the group and notify you.
 
 ```
-World Bank Group Staff Github.com Pilot MOU:
+World Bank Group Staff GitHub.com Pilot MOU:
 
 I am aware that I am requesting access to the World Bank Group's GitHub.com group and any associated public and private repositories within that group.
 I am aware that GitHub.com is an open source platform and that potentially any data uploaded could become available to the public.
@@ -49,7 +53,7 @@ Name:
 Github account name:
 ```
 
-**3. Create your repositories**
+**3. Creating repositories**
 
 - To create a repository in the World Bank GitHub group, send the following email to your manager and to [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Approval Required: Create GitHub Repository [NAME]".
 
@@ -75,7 +79,7 @@ Manager's Name:
 
 - If the content of the repository can be public, it's occasionally easier to create it using your personal account. However, if you are creating a repo to share commands, or templates, or apps created as part of your project, or the replication folder for a paper, you may want it to be linked to the World Bank group so people can find it without having to look for your username.
 
-**4. Clone the GitHub repo to your computer**
+**4. Cloning GitHub repos to your computer**
 
 - Click `Clone or download` on your repo's main page, then `Open in Desktop` and `Allow`. It's best practice to have your GitHub folder on your local computer, not in Dropbox, and sync changes using GitHub Desktop. If you insist on having this folder on Dropbox, please get in touch with the Data Coordinators to discuss the details on how to do it.
 
