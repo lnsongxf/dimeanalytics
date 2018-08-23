@@ -160,8 +160,6 @@ Project code review is currently being piloted but is expected to happen once a 
 
 **[Code review instructions](https://github.com/worldbank/DIMEwiki/wiki/How-does-it-work%3F)**
 
-## Trainings
-
 # Public Resources
 
 ## DIME Wiki
