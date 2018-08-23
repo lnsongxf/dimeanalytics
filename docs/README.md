@@ -14,6 +14,10 @@ Our team gathers, documents, standardizes and disseminates these produces and pr
 
 # DIME Analytics Services
 
+## RA Training and Education
+
+DIME Analytics runs semi-structured onboarding and continuing education sessions for DC-based research assistants on a regular basis. [Presentations from past sessions can be found here.](https://showcase.dropbox.com/s/DIME-RA-Onboarding-Materials-VKuivyxUNY812HXofgr5t)
+
 ## World Bank SurveyCTO
 
 DIME Analytics administers the [World Bank's enterprise subscription with SurveyCTO](https://survey.wb.surveycto.com/). This installation is available to all Bank teams at a discount from the retail subscription and uses Bank single-sign-on when possible as well as allowing external email accounts. Please review the [World Bank SurveyCTO Documentation](https://showcase.dropbox.com/s/WBG-SurveyCTO-Documentation-HZN82ovmFR0hpnnsLYdns) and use eServices to request a server. To be added to the DIME Team for survey template sharing, please contact DIME Analytics.
