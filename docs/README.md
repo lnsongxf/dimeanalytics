@@ -107,7 +107,13 @@ When you submit a working paper for internal review, DIME Analytics will support
 
 **Review Requirements**
 
-DIME Analytics will edit *only* the top-level directory global in the master do-file and run it to reproduce the results. This portion of the code should be marked out as illustrated below:
+We are happy to review code for both reproducibility and any other requests the team may have, given reasonable notice and time constraints. The best method is to share a Dropbox folder or GitHub repository with all the necessary code and documentation included. In either case, the shared folder should be freshly created specifically for the review. There are some basic reproducibility requirements we enforce before beginning detailed code review, so it is usually good for the programming team to verify the following before submitting:
+ 
+1. The “master” do-file is contained in the root directory of the shared folder and is the only do-file there;
+1. There is one line in the master do-file that needs to be adjusted to set the location of the root directory; and
+1. If this line and only this line is adjusted, then running the master do-file will correctly reproduce all materials from the project.
+ 
+Once we verify that the code structure as a whole is fully reproducible in this sense, we will go on to review the code itself in the order suggested by the master file and provide any general suggestions, or address any specific questions about the code that the submitting team may have. Let us know if you might need any other information to prepare a package for review. Once received, DIME Analytics will edit *only* that top-level directory global in the master do-file and run it to reproduce the results. This portion of the code should be marked out as illustrated below:
 
 ```
    * ******************************************************************** *
