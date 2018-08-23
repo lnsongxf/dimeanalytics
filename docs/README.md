@@ -16,7 +16,7 @@ Our team gathers, documents, standardizes and disseminates these produces and pr
 
 ## RA Training and Education
 
-DIME Analytics runs semi-structured onboarding and continuing education sessions for DC-based research assistants on a regular basis. [Presentations from past sessions can be found here.](https://showcase.dropbox.com/s/DIME-RA-Onboarding-Materials-VKuivyxUNY812HXofgr5t)
+DIME Analytics runs semi-structured onboarding and continuing education sessions for DC-based research assistants on a regular basis. [Presentations from past sessions can be found here.](https://showcase.dropbox.com/s/DIME-Research-Assistant-Training-Materials-VKuivyxUNY812HXofgr5t)
 
 ## World Bank SurveyCTO
 
