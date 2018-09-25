@@ -88,7 +88,7 @@ Manager's Name:
 
 - Click `Clone or download` on your repo's main page, then `Open in Desktop` and `Allow`. It's best practice to have your GitHub folder on your local computer, not in Dropbox, and sync changes using GitHub Desktop. If you insist on having this folder on Dropbox, please get in touch with the Data Coordinators to discuss the details on how to do it.
 
-- [This presentation](https://www.dropbox.com/s/mvf895eofw0ok3o/Git.pdf?raw=1) gives full details on how to sync a Git repo for the first time. 
+- [This presentation](https://www.dropbox.com/s/4cq44p8aw64x6kq/3_Git_Repos.pdf?raw=1) gives full details on how to sync a Git repo for the first time. 
 
 ## Hiring Support
 
