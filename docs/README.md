@@ -14,6 +14,8 @@ Our team gathers, documents, standardizes and disseminates these produces and pr
 
 # DIME Analytics Services
 
+For an overview of our activities for the 2017 Fiscal Year, and plans for the 2018 Fiscal Year, see our [Annual Update](https://www.dropbox.com/s/pe6rb83751fa05f/DIME%20Analytics%20Team%20Update.pdf?dl=0)
+
 ## RA Training and Education
 
 DIME Analytics runs semi-structured onboarding and continuing education sessions for DC-based research assistants on a regular basis. [Presentations from past sessions can be found here.](https://showcase.dropbox.com/s/DIME-Research-Assistant-Training-Materials-VKuivyxUNY812HXofgr5t) Incoming RAs may also benefit from reviewing the [Stata Track 2 training exercises](https://showcase.dropbox.com/s/Manage-Successful-Impact-Evaluations-Stata-Labs-Track-2-kbhOFwm29T6SPyiG5jDd9) from the Manage Successful Impact Evaluations training.
