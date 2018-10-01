@@ -88,7 +88,11 @@ Manager's Name:
 
 - Click `Clone or download` on your repo's main page, then `Open in Desktop` and `Allow`. It's best practice to have your GitHub folder on your local computer, not in Dropbox, and sync changes using GitHub Desktop. If you insist on having this folder on Dropbox, please get in touch with the Data Coordinators to discuss the details on how to do it.
 
-- [This presentation](https://www.dropbox.com/s/4cq44p8aw64x6kq/3_Git_Repos.pdf?raw=1) gives full details on how to sync a Git repo for the first time. 
+- [This presentation](https://www.dropbox.com/s/4cq44p8aw64x6kq/3_Git_Repos.pdf?raw=1) gives full details on how to sync a Git repo for the first time.
+
+## Cloud Computing
+
+DIME Analytics supports Amazon Simple Storage Solutions (S3) and Elastic Compute Cloud (EC2), which can store and process large datasets in a secure environment. We also support account provisioning for the remote-access on-premises cluster computer, and the browser-accessible RStudio Server. For access to these unlimited-size cloud storage and computing solutions, contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org).
 
 ## Hiring Support
 
