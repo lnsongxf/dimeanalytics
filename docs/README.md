@@ -105,10 +105,11 @@ DIME Analytics has recently concluded the Spring 2018 Recruitment Drive. Until t
 When you submit a working paper for internal review, DIME Analytics will support review and release of the reproduction data and code via the [World Bank GitHub](https://github.com/worldbank). The goal is to ensure that working papers by DIME are fully reproducible. To complete this review, please submit the following to [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) alongside the submission of the working paper to the peer review process (currently organized by Dan Rogger):
 
 1. The working paper submission, including tables and figures
+    - Filenames for tables and figures **must** correspond to the paper
 1. The directory that reproduces the results exactly, including:
-    - The master do-file
-    - All dofiles required to produce results
-    - The data required to produce the results
+    - The master do-file, which we will run
+    - Dofiles required to produce result
+    - All data required to produce the results
     - The TeX file that compiles the tables and figures (if applicable) 
 
 **Review Requirements**
