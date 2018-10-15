@@ -8,19 +8,19 @@ __← The sidebar__ has navigation links to all services we offer.
 
 # DIME Analytics Services
 
-For an overview of our activities for the 2017 Fiscal Year, and plans for the 2018 Fiscal Year, see our [Annual Update](https://www.dropbox.com/s/pe6rb83751fa05f/DIME%20Analytics%20Team%20Update.pdf?dl=0)
+For an overview of our activities for the 2017 Fiscal Year, and plans for the 2018 Fiscal Year, see our [Annual Update](https://www.dropbox.com/s/pe6rb83751fa05f/DIME%20Analytics%20Team%20Update.pdf?dl=0).
 
-## RA Training and Education
+## RA Training
 
 DIME Analytics runs semi-structured onboarding and continuing education sessions for DC-based research assistants on a regular basis. [Presentations from past sessions can be found here.](https://showcase.dropbox.com/s/DIME-Research-Assistant-Training-Materials-VKuivyxUNY812HXofgr5t) Incoming RAs may also benefit from reviewing the [Stata Track 2 training exercises](https://showcase.dropbox.com/s/Manage-Successful-Impact-Evaluations-Stata-Labs-Track-2-kbhOFwm29T6SPyiG5jDd9) from the Manage Successful Impact Evaluations training.
 
-## World Bank SurveyCTO
+## SurveyCTO
 
 DIME Analytics administers the [World Bank's enterprise subscription with SurveyCTO](https://survey.wb.surveycto.com/). This installation is available to all Bank teams at a discount from the retail subscription and uses Bank single-sign-on when possible as well as allowing external email accounts. Please review the [World Bank SurveyCTO Documentation](https://showcase.dropbox.com/s/WBG-SurveyCTO-Documentation-HZN82ovmFR0hpnnsLYdns) and use eServices to request a server. To be added to the DIME Team for survey template sharing, please contact DIME Analytics.
 
 [The custom version of the Sync client required for downloading data is available here.](http://ed10desktop.worldbank.org/default.asp?category=packages&page=packageview&pkgno=AWBG10177)
 
-## World Bank GitHub
+## GitHub
 
 DIME-based projects are encouraged to use Git, a [version control](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668) software, for maintaining code projects. To support this, DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/), and the desktop clients [GitHub Desktop](https://desktop.github.com) and [GitKraken (recommended)](https://www.gitkraken.com) are supported on World Bank computers. They allow simultaneous editing and execution of code files, including merging workstreams without conflicts, unlike Dropbox.
 Here's how to sign up:
@@ -84,11 +84,11 @@ Manager's Name:
 
 - [This presentation](https://www.dropbox.com/s/4cq44p8aw64x6kq/3_Git_Repos.pdf?raw=1) gives full details on how to sync a Git repo for the first time.
 
-## Cloud Computing
+## Cloud
 
 DIME Analytics supports Amazon Simple Storage Solutions (S3) and Elastic Compute Cloud (EC2), as well as Microsoft Azure, which can store and process large datasets in a secure environment. We also support account provisioning for the remote-access on-premises cluster computer, and the browser-accessible RStudio Server. For access to these unlimited-size cloud storage and computing solutions, contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org).
 
-## Hiring Support
+## Hiring
 
 DIME Analytics has recently concluded the Spring 2018 Recruitment Drive. Until the next Recruitment Drive launches, we supports the ad-hoc administration of the DIME Technical Tests for Research Assistant and Field Coordinator candidates as needed. Please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) for more details.
 
