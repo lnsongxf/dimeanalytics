@@ -2,8 +2,8 @@
 
 __← The sidebar__ has navigation links to all services we offer.
 
-- If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K). 
-- If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics). 
+- If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K).
+- If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics).
 - For questions not answered here, please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org). All other materials and resources are located on this page.
 
 # DIME Analytics Services
@@ -58,18 +58,18 @@ Github account name:
 
 ```
 Hi [MANAGER], can you please approve the following request for GitHub repository creation:
- 
+
 Repository Name:
 
-Repository Description/Purpose: 
+Repository Description/Purpose:
 
-Team Name: 
+Team Name:
 
-Team Maintainer: 
+Team Maintainer:
 
 I am aware that my employee named above as "Team Maintainer" is requesting creation of a code repository in the World Bank Group's Github.com site, for the purpose described above. This site allows for the publishing and public consumption of reproducible research and code. I agree that I have read the rules applicable to such access and agree to assist in upholding them to the best of my ability.
 
-Manager's Name: 
+Manager's Name:
 ```
 
 - The manager should reply to the email with a confirmation of approval and the GitHub team will then notify you when the repository is open.
@@ -104,16 +104,16 @@ When you submit a working paper for internal review, DIME Analytics will support
     - The master do-file, which we will run
     - Dofiles required to produce result
     - All data required to produce the results
-    - The TeX file that compiles the tables and figures (if applicable) 
+    - The TeX file that compiles the tables and figures (if applicable)
 
 **Review Requirements**
 
 We are happy to review code for both reproducibility and any other requests the team may have, given reasonable notice and time constraints. The best method is to share a Dropbox folder or GitHub repository with all the necessary code and documentation included. In either case, the shared folder should be freshly created specifically for the review. There are some basic reproducibility requirements we enforce before beginning detailed code review, so it is usually good for the programming team to verify the following before submitting:
- 
+
 1. The “master” do-file is contained in the root directory of the shared folder and is the only do-file there;
 1. There is one line in the master do-file that needs to be adjusted to set the location of the root directory; and
 1. If this line and only this line is adjusted, then running the master do-file will correctly reproduce all materials from the project.
- 
+
 Once we verify that the code structure as a whole is fully reproducible in this sense, we will go on to review the code itself in the order suggested by the master file and provide any general suggestions, or address any specific questions about the code that the submitting team may have. Let us know if you might need any other information to prepare a package for review. Once received, DIME Analytics will edit *only* that top-level directory global in the master do-file and run it to reproduce the results. This portion of the code should be marked out as illustrated below:
 
 ```
@@ -161,7 +161,7 @@ It is also possible to request a review of a Research Assistant or Field Coordin
 
 The project review is conducted by another RA or FC, and people submitting their codes are also required to review a peer's code. The goals of this exercise are to (1) make sure all work is reproducible, (2) reduce coding mistakes, (3) encourage adoption of best practices, (4) create an opportunity to learn new coding skills from other people's codes.
 
-Project code review is currently being piloted but is expected to happen once a month. Participants will be asked to share their codes with the reviewer on a given date and will have a week to review their assigned project, following a guidelines provided by DIME Analytics. 
+Project code review is currently being piloted but is expected to happen once a month. Participants will be asked to share their codes with the reviewer on a given date and will have a week to review their assigned project, following a guidelines provided by DIME Analytics.
 
 **[Sign up a project for next round of code review](https://docs.google.com/forms/d/e/1FAIpQLScW1Holg5UjaA5F_kJ8Ga47eAV_zHE6JCGLot7DNOSraFMoFQ/viewform?usp=sf_link)**
 
@@ -172,7 +172,7 @@ Project code review is currently being piloted but is expected to happen once a 
 ## DIME Wiki
 
 The [DIME Wiki](http://dimewiki.worldbank.org) is a one-stop shop for [practical resources on impact evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-development-impact-evaluation-wiki). The Wiki home page is organized around four primary phases in the impact evaluation life-cycle: research design, data collection, analysis, and publication. In each category, there are a list of primary articles, which the branch off to provide increasing detail. For example, under Data Collection, the article on “Questionnaire Design” provides overall guidelines on the design process, basic rules to follow, and a summary of key measurement issues. That page in turn leads to articles on questionnaire translation, piloting, programming, and types of response errors.  The sub-article on piloting links to a checklist to use to prepare for a survey pilot, and so on. Sub-articles on measurement link to previous blogposts from Development Impact, e.g. list experiments and recall bias.  
- 
+
 Cross-cutting resources focus on advice for immediately operationalizing the more abstract articles, with concrete code examples and ready-for-field (printable) checklists. For example, Randomization in SurveyCTO notes that randomization in SurveyCTO is not best practice because of lack of reproducibility, and gives extensive code examples on how to accomplish this in Stata instead.  Other pages, like ieduplicates, provide extensive documentation for quality-assurance code packages we have authored. Visit the DIME Wiki, create an account, and start editing!
 
 ## Annual FC Training
@@ -199,6 +199,9 @@ The [Stata IE Visual Library](https://worldbank.github.io/Stata-IE-Visual-Librar
 
 The [LaTeX Templates Library](https://github.com/worldbank/DIME-LaTeX-Templates) contains resources that will help you make your research more reproducible. This will save you a substantial amount of time, significantly reduce the risk for human errors when exporting results to your papers, and make your research more transparent. We have prepared exercises that will make it easy for you to start using these resources.
 
+## Installation instructions
+
+This section lists step by step installation instructions to various set ups that we in DIME Analytics like! Please let us know if any part of the instructions is not clear for you, or does not work for you and we will improve the instructions.
 # External Resources
 
 * [Exporting Tables](http://ageconsearch.umn.edu/bitstream/122600/2/sjart_dm0037.pdf)
