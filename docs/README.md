@@ -171,7 +171,7 @@ Project code review is currently being piloted but is expected to happen once a 
 
 ## DIME Wiki
 
-The [DIME Wiki](http://dimewiki.worldbank.org) is a one-stop shop for [practical resources on impact evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-development-impact-evaluation-wiki). The Wiki home page is organized around four primary phases in the impact evaluation life-cycle: research design, data collection, analysis, and publication. In each category, there are a list of primary articles, which the branch off to provide increasing detail. For example, under Data Collection, the article on “Questionnaire Design” provides overall guidelines on the design process, basic rules to follow, and a summary of key measurement issues. That page in turn leads to articles on questionnaire translation, piloting, programming, and types of response errors.  The sub-article on piloting links to a checklist to use to prepare for a survey pilot, and so on. Sub-articles on measurement link to previous blogposts from Development Impact, e.g. list experiments and recall bias.  
+The [DIME Wiki](http://dimewiki.worldbank.org) is a one-stop shop for [practical resources on impact evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-development-impact-evaluation-wiki). The Wiki home page is organized around four primary phases in the impact evaluation life-cycle: research design, data collection, analysis, and publication. In each category, there are a list of primary articles, which the branch off to provide increasing detail. For example, under Data Collection, the article on “Questionnaire Design” provides overall guidelines on the design process, basic rules to follow, and a summary of key measurement issues. That page in turn leads to articles on questionnaire translation, piloting, programming, and types of response errors.  The sub-article on piloting links to a checklist to use to prepare for a survey pilot, and so on. Sub-articles on measurement link to previous blogposts from Development Impact, e.g. list experiments and recall bias.
 
 Cross-cutting resources focus on advice for immediately operationalizing the more abstract articles, with concrete code examples and ready-for-field (printable) checklists. For example, Randomization in SurveyCTO notes that randomization in SurveyCTO is not best practice because of lack of reproducibility, and gives extensive code examples on how to accomplish this in Stata instead.  Other pages, like ieduplicates, provide extensive documentation for quality-assurance code packages we have authored. Visit the DIME Wiki, create an account, and start editing!
 
@@ -199,21 +199,54 @@ The [Stata IE Visual Library](https://worldbank.github.io/Stata-IE-Visual-Librar
 
 The [LaTeX Templates Library](https://github.com/worldbank/DIME-LaTeX-Templates) contains resources that will help you make your research more reproducible. This will save you a substantial amount of time, significantly reduce the risk for human errors when exporting results to your papers, and make your research more transparent. We have prepared exercises that will make it easy for you to start using these resources.
 
-## Installation instructions
+## Software Installation
 
-This section lists step by step installation instructions to various set ups that we in DIME Analytics like! Please let us know if any part of the instructions is not clear for you, or does not work for you and we will improve the instructions.
+This section lists step-by-step installation instructions for various software DIME Analytics recommends. Please let us know if any part of the instructions is not clear or does not work for you and we will improve the instructions, or if you would like to see any other software included.
 
-**Run Stata from Atom**
+**Stata**
 
-This set up only works on computer you have administration privileges for. We are currently working on setup instructions that also works on World Bank computers. **Roshni, Ben**, are there separate instructions for Mac?
+DIME has a Stata MP license for use on Bank and personal laptops. Contact DIME Analytics for installation on any OS.
+
+**Atom**
+
+Atom is a powerful text editor that has easy integrations with Git/GitHub and Stata, as well as other languages and softwares like LaTeX. It is built by the same team that produces GitHub, and is free. You can set it up on a personal computer with administration privileges. We are currently working on setup instructions for World Bank computers.
 
 1. First install Atom from https://atom.io/
-1. In Atom, go to _Settings_ and then _Install_ and install the following two packages **language-stata** and **Hydrogen**.
+1. In Atom, go to _Settings_ and then _Install_ and install the following two packages **language-stata** and **stata-exec**.
+1. In _Settings_ / _Packages_, open **stata-exec** and read the instructions carefully. Ask for help if you don't understand something. For Mac users, selecting the correct Stata version should be the only step.
+
+_For Windows Users:_
 1. Find the folder where Stata is installed on your computer. In that folder find the Stata executable file, i.e. `Stata.exe`, but depending on version of Stata that will look something like `StataSE.exe`, `StataSE-64.exe` etc. To be sure that it is the Stata Executable, test that Stata opens like normal when you double click it.
 1. In the same folder, create a short cut to the Stata executable file by right clicking on the file and choose _Create Shortcut_
 1. Right click on the short cut you created and select _Properties_. In the target field you see the path to the Stata executable, it will look something like this depending on where you installed Stata and what version you are using: `C:\Program Files\Stata13\StataSE.exe`. In the target field add `/Register` after the file path and make sure that the file path has quotation signs, like this: `"C:\Program Files\Stata13\StataSE.exe" /Register`. Then click _OK_ to close the window.
 1. Now right click the short cut again and select _Run as administrator_. **Roshni, Ben**, what is supposed to happen here? For me nothing happened, is that expected?
-1. Now open a Stata file in Atom and run it by [...] **Roshni, Ben**, how do I run Stata files from Atom?
+
+
+1. Now open a Stata .do file in Atom and run it using the keyboard shortcuts in the **stata-exec** settings. We can help you change these if you like, and they will be slightly different from the defaults in the Stata dofile editor. On a Mac, it is a good default to have `cmd-d` run the whole dofile, and have `cmd-enter` run the selected code block. To do this, _disable_ "keybindings" in **stata-exec** settings and add the following to your "Keymap..." in the Atom main menu:
+
+```
+# Mac stata-exec keybindings:
+'atom-text-editor':
+	'cmd-enter'	: 'stata-exec:run-batch'
+	'cmd-d'		: 'stata-exec:run-all'
+```
+
+For Windows/PC users...
+
+ [...] **Roshni**, how do I run Stata files from Atom on Windows?
+
+_Useful Atom Packages_
+
+* [file-icons](https://atom.io/packages/file-icons): Adds icons to the project sidebar.
+* [fonts](https://atom.io/packages/fonts): Supports beautiful programming fonts like [atom-firacode](https://atom.io/packages/firacode).
+* [chary-tree-view](https://atom.io/packages/chary-tree-view): Stops Atom from trying to open .dta and .xlsx files.
+* [indent-guide-improved](https://atom.io/packages/indent-guide-improved): Helps you understand the structure of your code and be a better coder.
+* [minimap](https://atom.io/packages/minimap): Shows you a zoomed-out view of your code so you can navigate faster.
+* [zebra-stripes](https://atom.io/packages/zebra-stripes): Makes alternating lines different colors in the editor (very good for coding).
+* [language-latex](https://atom.io/packages/language-latex): Provides code highlighting for LaTeX.
+* [latex](https://atom.io/packages/latex): Compile LaTeX documents with Atom. (Atom can replace TeXStudio also 😉)
+* [hydrogen](https://atom.io/packages/hydrogen): See Stata results directly in your code. This is an advanced feature and we are happy to help you set this up.
+* [teletype](https://atom.io/packages/teletype): Work on the same code file at the same time with any number of other people. This is _new_ software and can be a bit buggy but it can get you out of a pinch and is really cool.
 
 # External Resources
 
