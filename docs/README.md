@@ -211,7 +211,7 @@ DIME has a Stata MP license for use on Bank and personal laptops. Contact DIME A
 
 Atom is a powerful text editor that has easy integrations with Git/GitHub and Stata, as well as other languages and softwares like LaTeX. It is built by the same team that produces GitHub, and is free. You can set it up on a personal computer with administration privileges. We are currently working on setup instructions for World Bank computers.
 
-1. First install Atom from https://atom.io/
+1. First install Atom from https://atom.io/. Choose a theme you like!
 1. In Atom, go to _Settings_ and then _Install_ and install the following two packages **language-stata** and **stata-exec**.
 1. In _Settings_ / _Packages_, open **stata-exec** and read the instructions carefully. Ask for help if you don't understand something. For Mac users, selecting the correct Stata version should be the only step.
 
