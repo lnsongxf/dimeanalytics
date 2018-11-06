@@ -202,6 +202,19 @@ The [LaTeX Templates Library](https://github.com/worldbank/DIME-LaTeX-Templates)
 ## Installation instructions
 
 This section lists step by step installation instructions to various set ups that we in DIME Analytics like! Please let us know if any part of the instructions is not clear for you, or does not work for you and we will improve the instructions.
+
+**Run Stata from Atom**
+
+This set up only works on computer you have administration privileges for. We are currently working on setup instructions that also works on World Bank computers. **Roshni, Ben**, are there separate instructions for Mac?
+
+1. First install Atom from https://atom.io/
+1. In Atom, go to _Settings_ and then _Install_ and install the following two packages **language-stata** and **Hydrogen**.
+1. Find the folder where Stata is installed on your computer. In that folder find the Stata executable file, i.e. `Stata.exe`, but depending on version of Stata that will look something like `StataSE.exe`, `StataSE-64.exe` etc. To be sure that it is the Stata Executable, test that Stata opens like normal when you double click it.
+1. In the same folder, create a short cut to the Stata executable file by right clicking on the file and choose _Create Shortcut_
+1. Right click on the short cut you created and select _Properties_. In the target field you see the path to the Stata executable, it will look something like this depending on where you installed Stata and what version you are using: `C:\Program Files\Stata13\StataSE.exe`. In the target field add `/Register` after the file path and make sure that the file path has quotation signs, like this: `"C:\Program Files\Stata13\StataSE.exe" /Register`. Then click _OK_ to close the window.
+1. Now right click the short cut again and select _Run as administrator_. **Roshni, Ben**, what is supposed to happen here? For me nothing happened, is that expected?
+1. Now open a Stata file in Atom and run it by [...] **Roshni, Ben**, how do I run Stata files from Atom?
+
 # External Resources
 
 * [Exporting Tables](http://ageconsearch.umn.edu/bitstream/122600/2/sjart_dm0037.pdf)
