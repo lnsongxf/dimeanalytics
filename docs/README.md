@@ -213,15 +213,9 @@ Atom is a powerful text editor that has easy integrations with Git/GitHub and St
 
 1. First install Atom from https://atom.io/. Choose a theme you like!
 1. In Atom, go to _Settings_ and then _Install_ and install the following two packages **language-stata** and **stata-exec**.
-1. In _Settings_ / _Packages_, open **stata-exec** and read the instructions carefully. Ask for help if you don't understand something. For Mac users, selecting the correct Stata version should be the only step.
-
-_For Windows Users:_
-1. Find the folder where Stata is installed on your computer. In that folder find the Stata executable file, i.e. `Stata.exe`, but depending on version of Stata that will look something like `StataSE.exe`, `StataSE-64.exe` etc. To be sure that it is the Stata Executable, test that Stata opens like normal when you double click it.
-1. In the same folder, create a short cut to the Stata executable file by right clicking on the file and choose _Create Shortcut_
-1. Right click on the short cut you created and select _Properties_. In the target field you see the path to the Stata executable, it will look something like this depending on where you installed Stata and what version you are using: `C:\Program Files\Stata13\StataSE.exe`. In the target field add `/Register` after the file path and make sure that the file path has quotation signs, like this: `"C:\Program Files\Stata13\StataSE.exe" /Register`. Then click _OK_ to close the window.
-1. Now right click the short cut again and select _Run as administrator_. **Roshni, Ben**, what is supposed to happen here? For me nothing happened, is that expected?
-
-
+1. In _Settings_ / _Packages_, open **stata-exec** and read the instructions carefully.
+    * _For Mac users_ : Selecting the correct Stata version should be the only step. Ask for help if you don't understand something.
+    * _For Windows users_ : It is a bit more complicated. You need to follow [these](https://github.com/kylebarron/stata-exec#installation) instructions. Ask for help if you don't understand something.
 1. Now open a Stata .do file in Atom and run it using the keyboard shortcuts in the **stata-exec** settings. We can help you change these if you like, and they will be slightly different from the defaults in the Stata dofile editor. On a Mac, it is a good default to have `cmd-d` run the whole dofile, and have `cmd-enter` run the selected code block. To do this, _disable_ "keybindings" in **stata-exec** settings and add the following to your "Keymap..." in the Atom main menu:
 
 ```
