@@ -214,8 +214,8 @@ Atom is a powerful text editor that has easy integrations with Git/GitHub and St
 1. First install Atom from https://atom.io/. Choose a theme you like!
 1. In Atom, go to _Settings_ and then _Install_ and install the following two packages **language-stata** and **stata-exec**.
 1. In _Settings_ / _Packages_, open **stata-exec** and read the instructions carefully.
-    * _For Mac users_ : Selecting the correct Stata version should be the only step. Ask for help if you don't understand something.
-    * _For Windows users_ : It is a bit more complicated. You need to follow [these](https://github.com/kylebarron/stata-exec#installation) instructions. Ask for help if you don't understand something.
+    * _For Mac users_: Selecting the correct Stata version should be the only step. Ask for help if you don't understand something.
+    * _For Windows users_: It is a bit more complicated. You need to follow [these](https://github.com/kylebarron/stata-exec#installation) instructions. Ask for help if you don't understand something.
 1. Now open a Stata .do file in Atom and run it using the keyboard shortcuts in the **stata-exec** settings. We can help you change these if you like, and they will be slightly different from the defaults in the Stata dofile editor. On a Mac, it is a good default to have `cmd-d` run the whole dofile, and have `cmd-enter` run the selected code block. To do this, _disable_ "keybindings" in **stata-exec** settings and add the following to your "Keymap..." in the Atom main menu:
 
 ```
@@ -227,7 +227,6 @@ Atom is a powerful text editor that has easy integrations with Git/GitHub and St
 
 For Windows/PC users...
 
- [...] **Roshni**, how do I run Stata files from Atom on Windows?
 
 _Useful Atom Packages_
 
