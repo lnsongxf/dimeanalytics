@@ -2,8 +2,8 @@
 
 __← The sidebar__ has navigation links to all services we offer.
 
-- If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K). 
-- If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics). 
+- If you are a new hire, please visit the [Quick Start page](https://showcase.dropbox.com/s/DIME-New-Hire-Onboarding-Guide-LyXosHJuWwjZKKT74Or8K).
+- If you are an external visitor, you may be looking for our [official World Bank page](http://www.worldbank.org/en/research/dime/brief/DIME-Analytics).
 - For questions not answered here, please contact [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org). All other materials and resources are located on this page.
 
 # DIME Analytics Services
@@ -58,18 +58,18 @@ Github account name:
 
 ```
 Hi [MANAGER], can you please approve the following request for GitHub repository creation:
- 
+
 Repository Name:
 
-Repository Description/Purpose: 
+Repository Description/Purpose:
 
-Team Name: 
+Team Name:
 
-Team Maintainer: 
+Team Maintainer:
 
 I am aware that my employee named above as "Team Maintainer" is requesting creation of a code repository in the World Bank Group's Github.com site, for the purpose described above. This site allows for the publishing and public consumption of reproducible research and code. I agree that I have read the rules applicable to such access and agree to assist in upholding them to the best of my ability.
 
-Manager's Name: 
+Manager's Name:
 ```
 
 - The manager should reply to the email with a confirmation of approval and the GitHub team will then notify you when the repository is open.
@@ -104,16 +104,16 @@ When you submit a working paper for internal review, DIME Analytics will support
     - The master do-file, which we will run
     - Dofiles required to produce result
     - All data required to produce the results
-    - The TeX file that compiles the tables and figures (if applicable) 
+    - The TeX file that compiles the tables and figures (if applicable)
 
 **Review Requirements**
 
 We are happy to review code for both reproducibility and any other requests the team may have, given reasonable notice and time constraints. The best method is to share a Dropbox folder or GitHub repository with all the necessary code and documentation included. In either case, the shared folder should be freshly created specifically for the review. There are some basic reproducibility requirements we enforce before beginning detailed code review, so it is usually good for the programming team to verify the following before submitting:
- 
+
 1. The “master” do-file is contained in the root directory of the shared folder and is the only do-file there;
 1. There is one line in the master do-file that needs to be adjusted to set the location of the root directory; and
 1. If this line and only this line is adjusted, then running the master do-file will correctly reproduce all materials from the project.
- 
+
 Once we verify that the code structure as a whole is fully reproducible in this sense, we will go on to review the code itself in the order suggested by the master file and provide any general suggestions, or address any specific questions about the code that the submitting team may have. Let us know if you might need any other information to prepare a package for review. Once received, DIME Analytics will edit *only* that top-level directory global in the master do-file and run it to reproduce the results. This portion of the code should be marked out as illustrated below:
 
 ```
@@ -161,7 +161,7 @@ It is also possible to request a review of a Research Assistant or Field Coordin
 
 The project review is conducted by another RA or FC, and people submitting their codes are also required to review a peer's code. The goals of this exercise are to (1) make sure all work is reproducible, (2) reduce coding mistakes, (3) encourage adoption of best practices, (4) create an opportunity to learn new coding skills from other people's codes.
 
-Project code review is currently being piloted but is expected to happen once a month. Participants will be asked to share their codes with the reviewer on a given date and will have a week to review their assigned project, following a guidelines provided by DIME Analytics. 
+Project code review is currently being piloted but is expected to happen once a month. Participants will be asked to share their codes with the reviewer on a given date and will have a week to review their assigned project, following a guidelines provided by DIME Analytics.
 
 **[Sign up a project for next round of code review](https://docs.google.com/forms/d/e/1FAIpQLScW1Holg5UjaA5F_kJ8Ga47eAV_zHE6JCGLot7DNOSraFMoFQ/viewform?usp=sf_link)**
 
@@ -171,8 +171,8 @@ Project code review is currently being piloted but is expected to happen once a 
 
 ## DIME Wiki
 
-The [DIME Wiki](http://dimewiki.worldbank.org) is a one-stop shop for [practical resources on impact evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-development-impact-evaluation-wiki). The Wiki home page is organized around four primary phases in the impact evaluation life-cycle: research design, data collection, analysis, and publication. In each category, there are a list of primary articles, which the branch off to provide increasing detail. For example, under Data Collection, the article on “Questionnaire Design” provides overall guidelines on the design process, basic rules to follow, and a summary of key measurement issues. That page in turn leads to articles on questionnaire translation, piloting, programming, and types of response errors.  The sub-article on piloting links to a checklist to use to prepare for a survey pilot, and so on. Sub-articles on measurement link to previous blogposts from Development Impact, e.g. list experiments and recall bias.  
- 
+The [DIME Wiki](http://dimewiki.worldbank.org) is a one-stop shop for [practical resources on impact evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-development-impact-evaluation-wiki). The Wiki home page is organized around four primary phases in the impact evaluation life-cycle: research design, data collection, analysis, and publication. In each category, there are a list of primary articles, which the branch off to provide increasing detail. For example, under Data Collection, the article on “Questionnaire Design” provides overall guidelines on the design process, basic rules to follow, and a summary of key measurement issues. That page in turn leads to articles on questionnaire translation, piloting, programming, and types of response errors.  The sub-article on piloting links to a checklist to use to prepare for a survey pilot, and so on. Sub-articles on measurement link to previous blogposts from Development Impact, e.g. list experiments and recall bias.
+
 Cross-cutting resources focus on advice for immediately operationalizing the more abstract articles, with concrete code examples and ready-for-field (printable) checklists. For example, Randomization in SurveyCTO notes that randomization in SurveyCTO is not best practice because of lack of reproducibility, and gives extensive code examples on how to accomplish this in Stata instead.  Other pages, like ieduplicates, provide extensive documentation for quality-assurance code packages we have authored. Visit the DIME Wiki, create an account, and start editing!
 
 ## Annual FC Training
@@ -198,6 +198,38 @@ The [Stata IE Visual Library](https://worldbank.github.io/Stata-IE-Visual-Librar
 **LaTeX Templates Library**
 
 The [LaTeX Templates Library](https://github.com/worldbank/DIME-LaTeX-Templates) contains resources that will help you make your research more reproducible. This will save you a substantial amount of time, significantly reduce the risk for human errors when exporting results to your papers, and make your research more transparent. We have prepared exercises that will make it easy for you to start using these resources.
+
+## Software Installation
+
+This section lists step-by-step installation instructions for various software DIME Analytics recommends. Please let us know if any part of the instructions is not clear or does not work for you and we will improve the instructions, or if you would like to see any other software included.
+
+**Stata**
+
+DIME has a Stata MP license for use on Bank and personal laptops. Contact DIME Analytics for installation on any OS.
+
+**Atom**
+
+Atom is a powerful text editor that has easy integrations with Git/GitHub and Stata, as well as other languages and softwares like LaTeX. It is built by the same team that produces GitHub, and is free. You can set it up on a personal computer with administration privileges. We are currently working on setup instructions for World Bank computers.
+
+1. First install Atom from https://atom.io/. Choose any theme you like!
+1. In Atom, go to _Settings_ and then _Install_ and install the following two packages **language-stata** and **stata-exec**.
+1. In _Settings_ / _Packages_, open **stata-exec** and read the instructions carefully.
+    * _For Mac users_: Selecting the correct Stata version should be the only step. Ask for help if you don't understand something.
+    * _For Windows users_: It is a bit more complicated. You need to follow [these](https://github.com/kylebarron/stata-exec#installation) instructions. Ask for help if you don't understand something.
+1. Now open a Stata .do file in Atom and run it using the keyboard shortcuts in the **stata-exec** settings. The default keyboard shortcuts are slightly different than in the Stata dofile editor: `shift-cmd-d` (on Macs) and `shift-ctrl-d` (on PC) runs the whole file, and `cmd-alt-d` (on Macs) and `ctrl-alt-d` (on PC) runs only the selected code block. Let us know if you want to change these!
+
+_Useful Atom Packages_
+
+* [file-icons](https://atom.io/packages/file-icons): Adds icons to the project sidebar.
+* [fonts](https://atom.io/packages/fonts): Supports beautiful programming fonts like [atom-firacode](https://atom.io/packages/firacode).
+* [chary-tree-view](https://atom.io/packages/chary-tree-view): Stops Atom from trying to open .dta and .xlsx files.
+* [indent-guide-improved](https://atom.io/packages/indent-guide-improved): Helps you understand the structure of your code and be a better coder.
+* [minimap](https://atom.io/packages/minimap): Shows you a zoomed-out view of your code so you can navigate faster.
+* [zebra-stripes](https://atom.io/packages/zebra-stripes): Makes alternating lines different colors in the editor (very good for coding).
+* [language-latex](https://atom.io/packages/language-latex): Provides code highlighting for LaTeX.
+* [latex](https://atom.io/packages/latex): Compile LaTeX documents with Atom. (Atom can replace TeXStudio also 😉)
+* [hydrogen](https://atom.io/packages/hydrogen): See Stata results directly in your code. This is an advanced feature and we are happy to help you set this up.
+* [teletype](https://atom.io/packages/teletype): Work on the same code file at the same time with any number of other people. This is _new_ software and can be a bit buggy but it can get you out of a pinch and is really cool.
 
 # External Resources
 
