@@ -211,27 +211,12 @@ DIME has a Stata MP license for use on Bank and personal laptops. Contact DIME A
 
 Atom is a powerful text editor that has easy integrations with Git/GitHub and Stata, as well as other languages and softwares like LaTeX. It is built by the same team that produces GitHub, and is free. You can set it up on a personal computer with administration privileges. We are currently working on setup instructions for World Bank computers.
 
-1. First install Atom from https://atom.io/. Choose a theme you like!
+1. First install Atom from https://atom.io/. Choose any theme you like!
 1. In Atom, go to _Settings_ and then _Install_ and install the following two packages **language-stata** and **stata-exec**.
 1. In _Settings_ / _Packages_, open **stata-exec** and read the instructions carefully.
     * _For Mac users_: Selecting the correct Stata version should be the only step. Ask for help if you don't understand something.
     * _For Windows users_: It is a bit more complicated. You need to follow [these](https://github.com/kylebarron/stata-exec#installation) instructions. Ask for help if you don't understand something.
-1. Now open a Stata .do file in Atom and run it using the keyboard shortcuts in the **stata-exec** settings. The default keyboard shortcuts (called keybindings in atom) are slightly different than in the dofile editor. The default is that `shift-cmd-d` (on Macs) and `shift-ctrl-d` (on PC) runs the whole file, and `cmd-alt-d` (on Macs) and `ctrl-alt-d` (on PC) runs only the selected code block.
-1. We recommend you to keep these default keybindings as the shortcuts used in the dofile editor is used for other useful things in Atom. We can however help you change these if you like. To do this you need to do two steps.
-    1. First, go to the package installation tab in the Atom settings, search for **stata-exec** and click settings. In the  **stata-exec** settings, _disable_ "keybindings" in settings to remove all the default keybindings in **stata-exec**. 
-    1. Second, go to keybinding tab in the Atom settings and click the link to _our keymap file_. In that file add the and add the code below and update to your preferred shortcut if needed.
-
-```
-# Mac stata-exec keybindings:
-'atom-text-editor':
-	'cmd-enter'	: 'stata-exec:run-batch'
-	'cmd-d'		: 'stata-exec:run-all'
-
-# PC stata-exec keybindings:
-'atom-text-editor':
-	'ctrl-enter': 'stata-exec:run-batch'
-	'ctrl-d'	: 'stata-exec:run-all'    
-```
+1. Now open a Stata .do file in Atom and run it using the keyboard shortcuts in the **stata-exec** settings. The default keyboard shortcuts are slightly different than in the Stata dofile editor: `shift-cmd-d` (on Macs) and `shift-ctrl-d` (on PC) runs the whole file, and `cmd-alt-d` (on Macs) and `ctrl-alt-d` (on PC) runs only the selected code block. Let us know if you want to change these!
 
 _Useful Atom Packages_
 
