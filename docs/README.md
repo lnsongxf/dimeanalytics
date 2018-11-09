@@ -14,6 +14,10 @@ For an overview of our activities for the 2017 Fiscal Year, and plans for the 20
 
 DIME Analytics runs semi-structured onboarding and continuing education sessions for DC-based research assistants on a regular basis. [Presentations from past sessions can be found here.](https://showcase.dropbox.com/s/DIME-Research-Assistant-Training-Materials-VKuivyxUNY812HXofgr5t) Incoming RAs may also benefit from reviewing the [Stata Track 2 training exercises](https://showcase.dropbox.com/s/Manage-Successful-Impact-Evaluations-Stata-Labs-Track-2-kbhOFwm29T6SPyiG5jDd9) from the Manage Successful Impact Evaluations training.
 
+## Stata
+
+DIME has a Stata MP license for use on Bank and personal laptops. Contact DIME Analytics for installation on any OS.
+
 ## SurveyCTO
 
 DIME Analytics administers the [World Bank's enterprise subscription with SurveyCTO](https://survey.wb.surveycto.com/). This installation is available to all Bank teams at a discount from the retail subscription and uses Bank single-sign-on when possible as well as allowing external email accounts. Please review the [World Bank SurveyCTO Documentation](https://showcase.dropbox.com/s/WBG-SurveyCTO-Documentation-HZN82ovmFR0hpnnsLYdns) and use eServices to request a server. To be added to the DIME Team for survey template sharing, please contact DIME Analytics.
@@ -199,13 +203,9 @@ The [Stata IE Visual Library](https://worldbank.github.io/Stata-IE-Visual-Librar
 
 The [LaTeX Templates Library](https://github.com/worldbank/DIME-LaTeX-Templates) contains resources that will help you make your research more reproducible. This will save you a substantial amount of time, significantly reduce the risk for human errors when exporting results to your papers, and make your research more transparent. We have prepared exercises that will make it easy for you to start using these resources.
 
-## Software Installation
+## Software Recommendations
 
 This section lists step-by-step installation instructions for various software DIME Analytics recommends. Please let us know if any part of the instructions is not clear or does not work for you and we will improve the instructions, or if you would like to see any other software included.
-
-**Stata**
-
-DIME has a Stata MP license for use on Bank and personal laptops. Contact DIME Analytics for installation on any OS.
 
 **Atom**
 
