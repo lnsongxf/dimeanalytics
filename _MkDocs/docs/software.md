@@ -6,6 +6,10 @@ This section lists step-by-step installation instructions for various software D
 
 DIME members are allowed to utilize [Dropbox](https://www.dropbox.com/h) on personal and World Bank computers. Contact DIME Analytics to request an installation on a Bank machine, or start using your personal machine right away.
 
+## Remote Access
+
+You should be able to access a World Bank desktop from your personal computer using [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/). You should log in using your UPI and token, and you will have the option to load a virtual desktop from any location.
+
 ## Stata & R
 
 DIME has a [Stata MP](https://www.stata.com) license for use on Bank and personal laptops. [R and RStudio](https://www.rstudio.com) are free, and we additionally have a powerful RStudio Server and Shiny installation we can provide access to. Contact DIME Analytics for details.
