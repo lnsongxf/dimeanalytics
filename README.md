@@ -60,5 +60,5 @@ This section is only for admin users with access to the `master` and the `gh-pag
 
 When new edits have been merged to the `master` branch then do the following:
 
-1. Build the website using `mcdocs build` and make sure that the new edits has not broken anything on the website.
-1. Then run `mcdocs deploy` from the `/_mkDocs/` folder and make sure that you do not get any errors. If not, then the new edits are published!
+1. Build the website using `mkdocs build` and make sure that the new edits has not broken anything on the website.
+1. Then run `mkdocs deploy` from the `/_mkDocs/` folder and make sure that you do not get any errors. If not, then the new edits are published!
