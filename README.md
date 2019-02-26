@@ -48,11 +48,12 @@ Open an console window (_command line_, _terminal_, _bash_ etc.) and make sure t
 
 In that folder, run this in your console `mkdocs build`. This should create another folder `/_MkDocs/site/` with many sub-folders. In the `/site/` folder you should also find a file called `index.html`. Click that file and it should open as a webpage in your default browser.
 
-If you click on any link you will not get to the next page immediately. You will get to a page that looks like the image below (it looks different in different browsers, this is from Google chrome). Click on in the `index.html` link on that page and you will get to the link destination. This will not happen once we have uploaded your page, this is only when you test your site locally on your computer.
+If you click on any link you will not get to the next page immediately since you are browsing the files locally and that works slightly different. What will happen depends on your browser or if you are using a Mac or a PC. In Safari on a Mac, for example, you are taken to a folder in the `/site/` folder in finder where you will find another `index.html` file that you can click on to get to the page the link was pointing to.
 
+In Google Chrome on a PC you will get to a page that looks like the image below. There you click on the `index.html` link and you will get to the link destination.
 ![image](https://user-images.githubusercontent.com/15911801/53439689-a1ad9800-39d0-11e9-9272-5b9b4a8a1d95.png)
 
-When you are done, submit a pull request with your edits to the master branch, and we will review your edits and then upload them.
+When you are done with your edits, submit a pull request with your edits to the master branch, and we will review your edits and then upload them.
 
 ## Uploading new edits to https://worldbank.github.io/dimeanalytics/
 
