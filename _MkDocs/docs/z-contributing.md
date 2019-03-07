@@ -1,3 +1,5 @@
+#Contributing
+
 ## Two ways to contribute
 There are two ways to contribute to this website - an easy way and an advanced way. The only advantage of the advanced method is that you can see the final formatted HTML version of the website before you send us your edits. In the easy method you will only see the text in markdown format until we have deployed the update for you.
 
