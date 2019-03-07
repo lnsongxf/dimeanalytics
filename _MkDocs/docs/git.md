@@ -1,16 +1,23 @@
 # Git and GitHub
 
+## What is Git and what is needed to use Git?
+Git is a tool that solves almost any code collaboration challenge you can think of. It is such a successful tool that all the code in all the software you are using to browse the internet and read this text right not is developed in Git. Recently tools have been developed that makes it easier to use Git also for researchers like us that collaborate on code, but do not have time to learn the technical tools that computer scientists use.
+
+So while Git can be used in many ways, a research project usually depends on Git, a cloud host for Git (GitHub.com) and a Git Client. This is not more complicated than that your organization's email depends on emails, a cloud host for your emails (i.e. the webmail) and a desktop program that lets you write emails. See this comparison in the image below. You will eventually use Git/GitHub for more things than this, but for a beginner this is a good model to explain the difference between Git, GitHub and Git Clients. Each item is explained in more detail below.
+
+![Screenshot](img/git_github_gitclient.png)
+
 ## Git
 
 DIME projects are encouraged to use Git, a free [version control software](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668), for writing data analysis code. They allow simultaneous editing and execution of code files and comparisons of hisotries and alternate versions. This enables maintaining and merging simultaneous ongoing workstreams without conflicts, unlike software like Dropbox.
 
 ## Git Clients
 
-The desktop Git clients [GitHub Desktop](https://desktop.github.com) and [GitKraken (recommended)](https://www.gitkraken.com) are supported on World Bank computers. DIME Analytics offers occasional Git trainings as well as on-demand onboardings for teams and PIs and can help you get this software up and running.
+There are many desktop Git clients, but [GitHub Desktop](https://desktop.github.com) and [GitKraken](https://www.gitkraken.com) are supported on World Bank computers. GitHub Desktop is simple and therefore used in our training for absolute beginners, but we recommend anyone who intend to work a lot in Git to start using a more advanced git client like Git Kraken. Different people in the same project can use different clients, so a PI that only use Git occasionally can use GitHub Desktop, at the same time an RA use GitKraken. DIME Analytics offers regular Git trainings as well as on-demand onboardings for teams and PIs and can help you get this software up and running.
 
 ## GitHub
 
-GitHub is a web service that hosts a remote master copy of files you manage using Git. The World Bank has a Team subscription to this which you can join (see below). You can also create and manage your own remote Git repositories through [Microsoft Azure DevOps](http://devops.azure.com) without any approvals using your World Bank email to login.
+[GitHub](https://github.com/) is a web service that hosts a remote master copy of files you manage using Git. GitHub is just one of many places you can use to host your code, but The World Bank has a team subscription to this which you can join (see below) and that way get access to paid features. One GitHub alternative World Bank staff can use to create and manage your own remote Git repositories is [Microsoft Azure DevOps](http://devops.azure.com). You can create your repository there without any approvals using your World Bank email to login, although some features, like external collaboration, does not exist there.
 
 ### World Bank GitHub Group
 
@@ -18,7 +25,7 @@ DIME team members can join the [World Bank GitHub group](https://github.com/worl
 
 **1. Create a GitHub account**
 
-- If you do not already have a GitHub account, open one at [this link](https://github.com/join?source=header-home). We recommend you DON'T use your World Bank e-mail, as you may lose access to it, and you CAN use a personal account you already have to become a member of this group.
+- If you do not already have a GitHub account, open one at [this link](https://github.com/join). We recommend you DON'T use your World Bank e-mail, as you may lose access to it, and you CAN use a personal account you already have to become a member of this group.
 
 **2. Join the World Bank GitHub group**
 
