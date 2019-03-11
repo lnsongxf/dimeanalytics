@@ -12,7 +12,7 @@ Git is a tool that solves almost any code collaboration challenge you can think 
 
 So while Git can be used in many ways, a research project usually depends on Git, a cloud host for Git (GitHub.com) and a Git Client. This is not more complicated than that your organization's email depends on emails, a cloud host for your emails (i.e. the webmail) and a desktop program that lets you write emails. See this comparison in the image below. You will eventually use Git/GitHub for more things than this, but for a beginner this is a good model to explain the difference between Git, GitHub and Git Clients. Each item is explained in more detail below.
 
-![Screenshot](img/git_github_gitclient.png)
+![git_github_gitclient](img/git_github_gitclient.png)
 
 ## Git
 
