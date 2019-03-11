@@ -5,7 +5,7 @@ If you want to be invited as a collaborator on a World Bank hosted repository or
 1. You need a GitHub.com account. If you do not already have one, create a free account [here](https://github.com/join). After you have done so, send your username to the team with the repository you want to be invited to as a collaborator, or send it to the person organizing the beginners training you intend to attend.
 2. You need to install a Git Client on your computer. There are many clients to choose from and almost all of them are free. Which one you choose does not matter from a technical perspective, but in the beginner training we will show how to do things using the client [GitHub Desktop](https://desktop.github.com) which is free to use. If you already now know that you intend to use Git extensively, please read the section on Git Clients below.
 
-If you are a World Bank employee and either want to access the features in the World Bank's paid enterprise account (we recommend you to do so), or if you want to create your own repository within the World Bank's account, see the _World Bank GitHub Group_ below.
+If you are a World Bank employee and either want to access the features in the World Bank's paid enterprise account (we recommend you to do so), or if you want to create your own repository within the World Bank's account, see the [World Bank GitHub Group](#wbg-github) section below.
 
 ## What is Git and what is needed to use Git?
 Git is a tool that solves almost any code collaboration challenge you can think of. It is such a successful tool that all the code in all the software you are using to browse the internet and read this text right not is developed in Git. Recently tools have been developed that makes it easier to use Git also for researchers like us that collaborate on code, but do not have time to learn the technical tools that computer scientists use.
@@ -16,7 +16,7 @@ So while Git can be used in many ways, a research project usually depends on Git
 
 ## Git
 
-DIME projects are encouraged to use Git, a free [version control software](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668), for writing data analysis code. They allow simultaneous editing and execution of code files and comparisons of hisotries and alternate versions. This enables maintaining and merging simultaneous ongoing workstreams without conflicts, unlike software like Dropbox.
+DIME projects are encouraged to use Git, a free [version control software](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668), for writing data analysis code. They allow simultaneous editing and execution of code files and comparisons of histories and alternate versions. This enables maintaining and merging simultaneous ongoing workstreams without conflicts, unlike software like Dropbox.
 
 ## Git Clients
 
@@ -26,7 +26,7 @@ There are many desktop Git clients, but [GitHub Desktop](https://desktop.github.
 
 [GitHub](https://github.com/) is a web service that hosts a remote master copy of files you manage using Git. GitHub is just one of many places you can use to host your code, but The World Bank has a team subscription to this which you can join (see below) and that way get access to paid features. One GitHub alternative World Bank staff can use to create and manage your own remote Git repositories is [Microsoft Azure DevOps](http://devops.azure.com). You can create your repository there without any approvals using your World Bank email to login, although some features, like external collaboration, does not exist there.
 
-### World Bank GitHub Group
+### World Bank GitHub Group <a name="wbg-github"></a>
 
 DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/) to have access to premium features. Here's how to sign up:
 
