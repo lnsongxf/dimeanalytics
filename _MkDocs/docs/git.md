@@ -16,15 +16,19 @@ So while Git can be used in many ways, a research project usually depends on Git
 
 ## Git
 
-DIME projects are encouraged to use Git, a free [version control software](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668), for writing data analysis code. They allow simultaneous editing and execution of code files and comparisons of histories and alternate versions. This enables maintaining and merging simultaneous ongoing workstreams without conflicts, unlike software like Dropbox.
+DIME projects are encouraged to use Git, a free [version control software](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668), for writing and collaborating on data analysis code. Git allows simultaneous editing and execution of code files and very detailed comparisons of histories and alternate versions. This enables maintaining and merging simultaneous ongoing workstreams without conflicts, unlike software like Dropbox.
 
-## Git Clients
-
-There are many desktop Git clients, but [GitHub Desktop](https://desktop.github.com) and [GitKraken](https://www.gitkraken.com) are supported on World Bank computers. GitHub Desktop is simple and therefore used in our training for absolute beginners, but we recommend anyone who intend to work a lot in Git to start using a more advanced git client like Git Kraken. Different people in the same project can use different clients, so a PI that only use Git occasionally can use GitHub Desktop, at the same time an RA use GitKraken. DIME Analytics offers regular Git trainings as well as on-demand onboardings for teams and PIs and can help you get this software up and running.
+You do not need to understand how Git works to start using it. Our trainings are designed to introduce you gradually to the features you need to understand. If you are a beginner you only need to know how Git and GitHub are different things.
 
 ## GitHub
 
-[GitHub](https://github.com/) is a web service that hosts a remote master copy of files you manage using Git. GitHub is just one of many places you can use to host your code, but The World Bank has a team subscription to this which you can join (see below) and that way get access to paid features. One GitHub alternative World Bank staff can use to create and manage your own remote Git repositories is [Microsoft Azure DevOps](http://devops.azure.com). You can create your repository there without any approvals using your World Bank email to login, although some features, like external collaboration, does not exist there.
+[GitHub](https://github.com/) is one out of many web services that can host the master copy of files you manage using Git. GitHub is the largest of those services, which is good if you want people to see your code and maybe even contribute to it. But you can also decide to keep your code private and only show it to people you decide to invite to your project.
+
+The World Bank has a team subscription to this which you can join ([see below](#wbg-github)) and that way get access to paid features. One GitHub alternative World Bank staff can use to create and manage your own remote Git repositories is [Microsoft Azure DevOps](http://devops.azure.com). You can create your repository there without any approvals using your World Bank email to login, although some features, like external collaboration, does not exist there.
+
+## Git Clients
+
+There are many desktop Git clients you can use to interact with the master copy of your Git files hosted on the web, but [GitHub Desktop](https://desktop.github.com) and [GitKraken](https://www.gitkraken.com) are two clients supported on World Bank computers. GitHub Desktop is simple and therefore used in our training for absolute beginners, but we recommend anyone who intend to work a lot in Git to start using a more advanced Git client like GitKraken. Different people in the same project can use different clients, so a PI that only use Git occasionally can use GitHub Desktop, at the same time an RA use GitKraken. DIME Analytics offers regular Git trainings as well as on-demand onboardings for teams and PIs and can help you get this software up and running.
 
 ### World Bank GitHub Group <a name="wbg-github"></a>
 
