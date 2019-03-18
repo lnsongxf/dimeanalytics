@@ -36,7 +36,7 @@ DIME team members can join the [World Bank GitHub group](https://github.com/worl
 
 **1. Create a GitHub account**
 
-- If you do not already have a GitHub account, open one at [this link](https://github.com/join). We recommend you DON'T use your World Bank e-mail, as you may lose access to it, and you CAN use a personal account you already have to become a member of this group.
+- If you do not already have a GitHub account, open one at [this link](https://github.com/join). While you can use any email address, we **recommend using a personal email when you sign up** so that you do not lose access to your GitHub account in case you were to change job. You can also add multiple secondary email addresses to your account, and also change which address is your primary email address after you have signed up, but we are recommending using a personal email when signing up as we have had people lose access to their GitHub account after changing employer when using a work email as primary email.
 
 **2. Join the World Bank GitHub group**
 
