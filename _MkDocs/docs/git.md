@@ -7,6 +7,8 @@ If you want to be invited as a collaborator on a World Bank hosted repository or
 
 If you are a World Bank employee and either want to access the features in the World Bank's paid enterprise account (we recommend you to do so), or if you want to create your own repository within the World Bank's account, see the [World Bank GitHub Group](#wbg-github) section below.
 
+If you are helping to organize a Git training with DIME Analytics, see [this checklist](#git-training-checklist).
+
 ## What is Git and what is needed to use Git?
 Git is a tool that solves almost any code collaboration challenge you can think of. It is such a successful tool that all the code in all the software you are using to browse the internet and read this text right not is developed in Git. Recently tools have been developed that makes it easier to use Git also for researchers like us that collaborate on code, but do not have time to learn the technical tools that computer scientists use.
 
@@ -86,3 +88,18 @@ Manager's Name:
 - Repositories are private by default. If your repository will contain research code that is not ready to be shared with the world (e.g. data cleaning, exploratory analysis), you'll probably want to keep it that way.
 
 - If the content of the repository can be public, it's occasionally easier to create it using your personal account. However, if you are creating a repo to share commands, or templates, or apps created as part of your project, or the replication folder for a paper, you may want it to be linked to the World Bank group so people can find it without having to look for your username.
+
+### Checklist for GitTraining <a name="git-training-checklist"></a>
+
+
+* When planning the training:
+    * **Organizer:** If people are attending remotely: Set up WebEx
+    * **Organizer:** If people are attending in person: Make sure that the room is a VC room with a screen
+    * **Organizer:** If people are attending both remotely and in person, do both of the above!
+    * **Organizer:** Send out the instructions at the top of this page for what the participants needs before the training. Copy the facilitator on the email if that makes sense.
+* A day or two before the training:
+    * **Organizer:** Make sure that all participants has a GitHub account and a Git Client (GitHub Desktop if it is a beginner training). Send all the GitHub account names to the facilitator
+    * **Facilitator:** Set up a training repo
+    * **Facilitator:** Invite all participants to the training repo
+* Day of training:
+    * **Facilitator:** Check how many people accepted the invitation. If almost all accepted, then follow up at beginning of training, otherwise follow up by email as too much time will be spent doing this at the training. 
