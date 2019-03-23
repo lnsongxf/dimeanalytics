@@ -7,7 +7,7 @@ If you want to be invited as a collaborator on a World Bank hosted repository or
 
 If you are a World Bank employee and either want to access the features in the World Bank's paid enterprise account (we recommend you to do so), or if you want to create your own repository within the World Bank's account, see the [World Bank GitHub Group](#wbg-github) section below.
 
-If you are helping to organize a Git training with DIME Analytics, see [this checklist](#git-training-checklist).
+If you are helping to organize a Git training with DIME Analytics, see [this checklist](#checklist-for-intro-to-git-and-github-training).
 
 ## What is Git and what is needed to use Git?
 Git is a tool that solves almost any code collaboration challenge you can think of. It is such a successful tool that all the code in all the software you are using to browse the internet and read this text right not is developed in Git. Recently tools have been developed that makes it easier to use Git also for researchers like us that collaborate on code, but do not have time to learn the technical tools that computer scientists use.
@@ -26,13 +26,13 @@ You do not need to understand how Git works to start using it. Our trainings are
 
 [GitHub](https://github.com/) is one out of many web services that can host the master copy of files you manage using Git. GitHub is the largest of those services, which is good if you want people to see your code and maybe even contribute to it. But you can also decide to keep your code private and only show it to people you decide to invite to your project.
 
-The World Bank has a team subscription to this which you can join ([see below](#wbg-github)) and that way get access to paid features. One GitHub alternative World Bank staff can use to create and manage your own remote Git repositories is [Microsoft Azure DevOps](http://devops.azure.com). You can create your repository there without any approvals using your World Bank email to login, although some features, like external collaboration, does not exist there.
+The World Bank has a team subscription to this which you can join ([see below](#world-bank-github-group)) and that way get access to paid features. One GitHub alternative World Bank staff can use to create and manage your own remote Git repositories is [Microsoft Azure DevOps](http://devops.azure.com). You can create your repository there without any approvals using your World Bank email to login, although some features, like external collaboration, does not exist there.
 
 ## Git Clients
 
 There are many desktop Git clients you can use to interact with the master copy of your Git files hosted on the web, but [GitHub Desktop](https://desktop.github.com) and [GitKraken](https://www.gitkraken.com) are two clients supported on World Bank computers. GitHub Desktop is simple and therefore used in our training for absolute beginners, but we recommend anyone who intend to work a lot in Git to start using a more advanced Git client like GitKraken. Different people in the same project can use different clients, so a PI that only use Git occasionally can use GitHub Desktop, at the same time an RA use GitKraken. DIME Analytics offers regular Git trainings as well as on-demand onboardings for teams and PIs and can help you get this software up and running.
 
-### World Bank GitHub Group <a name="wbg-github"></a>
+### World Bank GitHub Group
 
 DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/) to have access to premium features. Here's how to sign up:
 
@@ -89,7 +89,7 @@ Manager's Name:
 
 - If the content of the repository can be public, it's occasionally easier to create it using your personal account. However, if you are creating a repo to share commands, or templates, or apps created as part of your project, or the replication folder for a paper, you may want it to be linked to the World Bank group so people can find it without having to look for your username.
 
-### Checklist for GitTraining <a name="git-training-checklist"></a>
+### Checklist for Intro to Git and GitHub training:
 
 
 * When planning the training:
