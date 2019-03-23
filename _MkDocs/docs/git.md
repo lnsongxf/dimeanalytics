@@ -99,7 +99,8 @@ Manager's Name:
     * **Organizer:** Send out the instructions at the top of this page for what the participants needs before the training. Copy the facilitator on the email if that makes sense.
 * A day or two before the training:
     * **Organizer:** Make sure that all participants has a GitHub account and a Git Client (GitHub Desktop if it is a beginner training). Send all the GitHub account names to the facilitator
+    * **Organizer:** Make sure that all participants are aware that this is an interactive training where it only make sense if everyone brings their own computer doe the training.
     * **Facilitator:** Set up a training repo
     * **Facilitator:** Invite all participants to the training repo
 * Day of training:
-    * **Facilitator:** Check how many people accepted the invitation. If almost all accepted, then follow up at beginning of training, otherwise follow up by email as too much time will be spent doing this at the training. 
+    * **Facilitator:** Check how many people accepted the invitation. If almost all accepted, then follow up at beginning of training, otherwise follow up by email as too much time will be spent doing this at the training.
