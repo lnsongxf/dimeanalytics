@@ -104,3 +104,4 @@ Manager's Name:
     * **Facilitator:** Invite all participants to the training repo
 * Day of training:
     * **Facilitator:** Check how many people accepted the invitation. If almost all accepted, then follow up at beginning of training, otherwise follow up by email as too much time will be spent doing this at the training.
+    * **Facilitator:** Make sure that you do not have the test repo, or another repo with the same name, already cloned to your computer
