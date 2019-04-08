@@ -6,9 +6,11 @@ This section lists step-by-step installation instructions for various software D
 
 DIME members are allowed to utilize [Dropbox](https://www.dropbox.com/h) on personal and World Bank computers. Contact DIME Analytics to request an installation on a Bank machine, or start using your personal machine right away.
 
-## Remote Access
+## Videoconferencing and Remote Access
 
-You should be able to access a World Bank desktop from your personal computer using [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/). You should log in using your UPI and token, and you will have the option to load a virtual desktop from any location.
+The World Bank provides a WebEx subscription to all staff. You can access your account at the [corporate WebEx portal](http://worldbankgroup.webex.com) using your logon token. You can also use the desktop and mobile apps on Bank or personal machines without additional restriction.
+
+You are also able to access a World Bank desktop from any personal computer using [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/). You should log in using your UPI and token, and you will have the option to load a virtual desktop from any location.
 
 ## Stata & R
 
