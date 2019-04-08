@@ -32,7 +32,7 @@ pandoc -s -o main.docx main.tex --bibliography sample.bib --csl=/.../styles/the-
 
 ## Security and Data Encryption
 
-[LastPass](http://lastpass.com) is a free web app and software that manages your passwords. [Authy](https://itunes.apple.com/us/app/authy/id494168017?mt=8) is a software that enables two-factor authentication on your personal accounts. You should definitely use these both for all your personal and official data.
+[LastPass](http://lastpass.com) is a free web app and software that manages your passwords. The World Bank provides a free premium subscription for you. Visit the [LastPass Premium Partner Page](https://lastpass.com/partnerpremium/theworldbankgroup) to set up access. [Authy](https://itunes.apple.com/us/app/authy/id494168017?mt=8) is a software that enables two-factor authentication on your personal accounts. You should use both softwares to protect your personal and official data against risk of theft or loss.
 
 [VeraCrypt](http://veracrypt.fr) is a free encryption software that creates and manages "virtual thumb drives" that are inaccessible without a password. It can be used on World Bank machines to store and transfer sensitive data.
 
