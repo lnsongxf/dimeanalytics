@@ -6,13 +6,17 @@ This section lists step-by-step installation instructions for various software D
 
 DIME members are allowed to utilize [Dropbox](https://www.dropbox.com/h) on personal and World Bank computers. Contact DIME Analytics to request an installation on a Bank machine, or start using your personal machine right away.
 
-## Remote Access
+## Videoconferencing 
 
-You should be able to access a World Bank desktop from your personal computer using [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/). You should log in using your UPI and token, and you will have the option to load a virtual desktop from any location.
+The World Bank provides a WebEx subscription to all staff. You can access your account at the [corporate WebEx portal](http://worldbankgroup.webex.com) using your logon token. You can also use the desktop and mobile apps on Bank or personal machines without additional restriction. This is a more reliable way to have video conferences than, for example, Google Hangouts or Skype. The people you invite do not need an account, there is localized dial-in and dial-out capacity in many countries, and by inviting World Bank conference rooms (see the WebEx portal) the videoconference (VC) equipment in the room connects automatically once the meeting time starts.
+
+# Remote Access to Bank Virtual Machines
+
+You are able to access a World Bank desktop from any personal computer using [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/). You will log in using your UPI and token, and giving you the ability to load a virtual desktop from any location. This can also be set up by ITS to provide a secure and powerful server interface for your team to store and analyze data using Virtual Desktop Infrastructure (VDI).
 
 ## Stata & R
 
-DIME has a [Stata MP](https://www.stata.com) license for use on Bank and personal laptops. [R and RStudio](https://www.rstudio.com) are free, and we additionally have a powerful RStudio Server and Shiny installation we can provide access to. Contact DIME Analytics for details.
+DIME has a [Stata MP](https://www.stata.com) license for use on Bank and personal laptops and Bank servers. [R and RStudio](https://www.rstudio.com) are free, and we additionally have a powerful RStudio Server and Shiny installation we can provide access to. Contact DIME Analytics for details.
 
 ## SurveyCTO
 
@@ -32,29 +36,22 @@ pandoc -s -o main.docx main.tex --bibliography sample.bib --csl=/.../styles/the-
 
 ## Security and Data Encryption
 
-[LastPass](http://lastpass.com) is a free web app and software that manages your passwords. [Authy](https://itunes.apple.com/us/app/authy/id494168017?mt=8) is a software that enables two-factor authentication on your personal accounts. You should definitely use these both for all your personal and official data.
+#### Password Managers
 
-[VeraCrypt](http://veracrypt.fr) is a free encryption software that creates and manages "virtual thumb drives" that are inaccessible without a password. It can be used on World Bank machines to store and transfer sensitive data.
+Using a password manager is the most commonly recommended best practice for normal internet users (see examples [here](https://www.howtogeek.com/141500/why-you-should-use-a-password-manager-and-how-to-get-started/), [here](https://www.theverge.com/2017/7/24/15921282/best-password-manager-1password-lastpass-dashlane-how-to) or [here](https://www.pcmag.com/article/325635/get-organized-why-arent-you-using-a-password-manager-yet)) and should be used by everyone. They can generate and store strong passwords for your accounts, when you will need to use various logon names for personal and official business.
 
-## Our GitHub Repositories
+[LastPass](http://lastpass.com) is a popular and free password manager. It is most important that you are using any password manager, but the World Bank provides a free subscription to the premium features in LastPass for you. Visit the [LastPass Premium Partner Page](https://lastpass.com/partnerpremium/theworldbankgroup) to set up access.
 
-### ietoolkit
+#### Two-Factor Authentication (2FA)
 
-[ietoolkit](https://worldbank.github.io/ietoolkit/) provides a set of commands that address different aspects of data management and data analysis in relation to [Impact Evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-ietoolkit). The list of commands will be extended continuously, and suggestions for new commands are greatly appreciated. Some of the commands are related to standardized best practices developed at DIME (The World Bank’s unit for Impact Evaluations). For these commands, the corresponding help files provide justifications for the standardized best practices applied.
+If you combine two-factor authentication with a password managers then your life on the web is as secure as it could possibly be. The main drawback of most two-factor authentication methods is that it only works if you have your cell phone with you and it is charged. 2FA is required for most Bank-provided services via a logon token that is emailed to you whenever you attempt to access a secure service.
 
-### World Bank Stata GitHub
+However, you should also protect your personal accounts, since they may contain sensitive personal or financial information. [Authy](https://authy.com/) is one exampe of a free software that enables two-factor authentication on your personal accounts. Setup is via [Authy for Apple iOS](https://itunes.apple.com/us/app/authy/id494168017) and [Authy for Android](https://play.google.com/store/apps/details?id=com.authy.authy).
 
-The [World Bank Stata GitHub](https://worldbank.github.io/stata/) is an effort to debug, polish, improve, and disseminate useful reusable Stata code that is developed during the course of work. This repository is for such useful snippets – formalized as adofiles – which automate routine data management, statistical analysis, and graphing tasks such as data import and cleaning, production of summary statistics tables, and categorical bar charts with confidence intervals.
+#### Shared Drive (DropBox etc.) encryption
+[VeraCrypt](http://veracrypt.fr) is a free encryption software that creates and manages "virtual thumb drives" that are inaccessible without a password. It can be used on World Bank machines to store and transfer sensitive data. Contact DIME Analytics for training.
 
-### Stata IE Visual Library
-
-The [Stata IE Visual Library](https://worldbank.github.io/Stata-IE-Visual-Library/) is a repository maintained by DIME and containing example graphs on how to explore data sets and display results of Impact Evaluations using Stata.
-
-### LaTeX Templates Library
-
-The [LaTeX Templates Library](https://github.com/worldbank/DIME-LaTeX-Templates) contains resources that will help you make your research more reproducible. This will save you a substantial amount of time, significantly reduce the risk for human errors when exporting results to your papers, and make your research more transparent. We have prepared exercises that will make it easy for you to start using these resources.
-
-## Atom
+## Atom Text and Code Editor
 
 [Atom](http://atom.io) is a powerful free text editor that has easy integrations with Git/GitHub and Stata, as well as other languages and softwares like LaTeX and Markdown. You can set it up on a personal computer with administration privileges. We are currently working on setup instructions for World Bank computers.
 
@@ -74,6 +71,28 @@ _Useful Atom Packages:_
 * [minimap](https://atom.io/packages/minimap): Shows you a zoomed-out view of your code so you can navigate faster.
 * [zebra-stripes](https://atom.io/packages/zebra-stripes): Makes alternating lines different colors in the editor (very good for coding).
 * [language-latex](https://atom.io/packages/language-latex): Provides code highlighting for LaTeX.
-* [latex](https://atom.io/packages/latex): Compile LaTeX documents with Atom. (Atom can replace TeXStudio also 😉)
+* [latex](https://atom.io/packages/latex): Compile LaTeX documents with Atom. (Atom can therefore replace TeXStudio also.)
 * [hydrogen](https://atom.io/packages/hydrogen): See Stata results directly in your code. This is an advanced feature and we are happy to help you set this up.
 * [teletype](https://atom.io/packages/teletype): Work on the same code file at the same time with any number of other people. This is _new_ software and can be a bit buggy but it can get you out of a pinch and is really cool.
+
+## Our GitHub Repositories
+
+### ietoolkit
+
+[ietoolkit](https://worldbank.github.io/ietoolkit/) provides a set of commands that address different aspects of data management and data analysis in relation to [Impact Evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-ietoolkit). The list of commands will be extended continuously, and suggestions for new commands are greatly appreciated. Some of the commands are related to standardized best practices developed at DIME (The World Bank’s unit for Impact Evaluations). For these commands, the corresponding help files provide justifications for the standardized best practices applied. See the [DIME Wiki entry](https://dimewiki.worldbank.org/wiki/ietoolkit) for more details.
+
+### iefieldkit
+
+[iefieldkit](https://www.github.com/worldbank/iefieldkit/) provides a set of commands that enable a reproducible primary data collection and cleaning workflow. The package is developed to facilitate a workflow including (1) data collection (in particular using opendatakit.org, more specifically surveycto.com); (2) basic data cleaning, such as labeling and recoding; (3) reconciling survey rounds; (4) preparing codebooks to document data sets. iefieldkit was developed to standardize and simplify best practices for high-quality primary data collection across the World Bank's Development Research Group Impact Evaluations team (DIME). The commands can also be used independently, and are developed to be applicable to many other contexts as well. See the [DIME Wiki entry](https://dimewiki.worldbank.org/wiki/Iefieldkit) for more details.
+
+### World Bank Stata GitHub
+
+The [World Bank Stata GitHub](https://worldbank.github.io/stata/) is an effort to debug, polish, improve, and disseminate useful reusable Stata code that is developed during the course of work. This repository is for such useful snippets – formalized as adofiles – which automate routine data management, statistical analysis, and graphing tasks such as data import and cleaning, production of summary statistics tables, and categorical bar charts with confidence intervals.
+
+### Stata IE Visual Library
+
+The [Stata IE Visual Library](https://worldbank.github.io/Stata-IE-Visual-Library/) is a repository maintained by DIME and containing example graphs on how to explore data sets and display results of Impact Evaluations using Stata.
+
+### LaTeX Templates Library
+
+The [LaTeX Templates Library](https://github.com/worldbank/DIME-LaTeX-Templates) contains resources that will help you make your research more reproducible. This will save you a substantial amount of time, significantly reduce the risk for human errors when exporting results to your papers, and make your research more transparent. We have prepared exercises that will make it easy for you to start using these resources.
