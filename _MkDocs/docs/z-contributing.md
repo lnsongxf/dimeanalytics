@@ -3,7 +3,7 @@
 ## Two ways to contribute
 There are two ways to contribute to this website - an easy way and an advanced way. The only advantage of the advanced method is that you can see the final formatted HTML version of the website before you send us your edits. In the easy method you will only see the text in markdown format until we have deployed the update for you.
 
-If you want to just add a sentence or fix a typo, then you will be perfectly fine using the easy method. If should also be fine if you add a new paragraph as well. However, if you are adding a table, a new page or something big like that, then you should consider using the advanced method so you can see the results.
+If you want to just add a sentence or fix a typo, then you will be perfectly fine using the easy method. It should also be fine if you are adding a new paragraph as well. However, if you are adding a table, a new page or something big like that, then you should consider using the advanced method so you can see the rendered result before submitting a pull request.
 
 #### Which files to edit
 Regardless if you are using the easy or the advanced method, the files you need to edit are exactly the same.
