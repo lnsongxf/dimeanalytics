@@ -8,7 +8,7 @@ DIME members are allowed to utilize [Dropbox](https://www.dropbox.com/h) on pers
 
 ## Videoconferencing and Remote Access
 
-The World Bank provides a WebEx subscription to all staff. You can access your account at the [corporate WebEx portal](http://worldbankgroup.webex.com) using your logon token. You can also use the desktop and mobile apps on Bank or personal machines without additional restriction.
+The World Bank provides a WebEx subscription to all staff. You can access your account at the [corporate WebEx portal](http://worldbankgroup.webex.com) using your logon token. You can also use the desktop and mobile apps on Bank or personal machines without additional restriction. This is a more reliable way to have video conferences than, for example, Google Hangouts or Skype, the people you invite do not need an account, and by inviting World Bank conference rooms (see the WebEx portal) the video conference equipment in the room connects automatically once the meeting time starts.
 
 You are also able to access a World Bank desktop from any personal computer using [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/). You should log in using your UPI and token, and you will have the option to load a virtual desktop from any location.
 
