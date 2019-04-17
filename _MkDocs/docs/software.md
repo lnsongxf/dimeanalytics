@@ -6,11 +6,11 @@ This section lists step-by-step installation instructions for various software D
 
 DIME members are allowed to utilize [Dropbox](https://www.dropbox.com/h) on personal and World Bank computers. Contact DIME Analytics to request an installation on a Bank machine, or start using your personal machine right away.
 
-## Videoconferencing 
+## Videoconferencing
 
 The World Bank provides a WebEx subscription to all staff. You can access your account at the [corporate WebEx portal](http://worldbankgroup.webex.com) using your logon token. You can also use the desktop and mobile apps on Bank or personal machines without additional restriction. This is a more reliable way to have video conferences than, for example, Google Hangouts or Skype. The people you invite do not need an account, there is localized dial-in and dial-out capacity in many countries, and by inviting World Bank conference rooms (see the WebEx portal) the videoconference (VC) equipment in the room connects automatically once the meeting time starts.
 
-# Remote Access to Bank Virtual Machines
+## Remote Access to Bank Virtual Machines
 
 You are able to access a World Bank desktop from any personal computer using [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/). You will log in using your UPI and token, and giving you the ability to load a virtual desktop from any location. This can also be set up by ITS to provide a secure and powerful server interface for your team to store and analyze data using Virtual Desktop Infrastructure (VDI).
 
