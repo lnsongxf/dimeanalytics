@@ -34,15 +34,20 @@ There are many desktop Git clients you can use to interact with the master copy 
 
 ### World Bank GitHub Group
 
-DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/) to have access to premium features. Here's how to sign up:
+DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/) to have access to premium features. To join this group you must first have a GitHub account.
 
-**1. Create a GitHub account**
+**Create a GitHub account**
 
 - If you do not already have a GitHub account, open one at [this link](https://github.com/join). While you can use any email address, we **recommend using a personal email when you sign up** so that you do not lose access to your GitHub account in case you were to change jobs. There is no need to create a second account if you already signed up using a work email as you can add multiple secondary email addresses to your account, and later change which address is your primary email address. But we are recommending using a personal email when signing up in the first place, as we have had people lose access to their GitHub account after changing employer when using a work email as primary email.
 
-**2. Join the World Bank GitHub group**
+#### Join the World Bank GitHub group
 
-- Complete the World Bank GitHub.com Pilot MOU below, and email it to the World Bank GitHub team at [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]". They will add you to the group and notify you.
+This only applies to people with an active employment contract with the World Bank (although it includes anything from Staff, ETC, STC, to internship).
+
+1. Complete the World Bank GitHub.com Pilot MOU below, and email it from your World Bank email address to the World Bank GitHub team at [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]".
+2. When the GitHub team have received your request and checked that it is in order they will add you to the group. You will then get an notification from GitHub.com to your email saying that you have been invited to the World Bank GitHub group.
+3. If you have been invited but you did not receive the invitation (the email got deleted or ended up in junk folder etc.) then you can always got o [github.com/worldbank](https://github.com/worldbank) and if you have a invitation waiting for you to join the World Bank GitHub group, then you will be promted to accept the invitation at the top of the page.
+
 
 ```
 World Bank Group Staff GitHub.com Pilot MOU:
@@ -63,7 +68,7 @@ Name:
 Github account name:
 ```
 
-**3. Creating repositories**
+#### Creating a repository within the World Bank GitHub group
 
 - To create a repository in the World Bank GitHub group, send the following email to your manager and to [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Approval Required: Create GitHub Repository [NAME]".
 
@@ -88,6 +93,13 @@ Manager's Name:
 - Repositories are private by default. If your repository will contain research code that is not ready to be shared with the world (e.g. data cleaning, exploratory analysis), you'll probably want to keep it that way.
 
 - If the content of the repository can be public, it's occasionally easier to create it using your personal account. However, if you are creating a repo to share commands, or templates, or apps created as part of your project, or the replication folder for a paper, you may want it to be linked to the World Bank group so people can find it without having to look for your username.
+
+#### Joining a repository hosted in the World Bank GitHub group as a external collaborator
+
+This does only apply to anyone who does not have an active contract with the World Bank. If you do have a active contract, then follow the steps for how to join the World Bank GitHub group and then this step is not needed.
+
+**MRIJAN YOU ADD INSTRUCTIONS FOR EXTERNAL COLLABORATORS HERE** - or send them to me and I will add.
+
 
 ### Checklist for Intro to Git and GitHub training:
 
