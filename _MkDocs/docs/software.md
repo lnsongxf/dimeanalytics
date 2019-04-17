@@ -34,11 +34,21 @@ pandoc -s -o main.docx main.tex --bibliography sample.bib --csl=/.../styles/the-
 
 ## Security and Data Encryption
 
-[LastPass](http://lastpass.com) is a free web app and software that manages your passwords. The World Bank provides a free premium subscription for you. Visit the [LastPass Premium Partner Page](https://lastpass.com/partnerpremium/theworldbankgroup) to set up access. [Authy](https://itunes.apple.com/us/app/authy/id494168017?mt=8) is a software that enables two-factor authentication on your personal accounts. You should use both softwares to protect your personal and official data against risk of theft or loss.
+#### Password Managers
 
+Using a password manager has for the last couple of years been the most commonly recommended best practice for normal internet users (see examples [here](https://www.howtogeek.com/141500/why-you-should-use-a-password-manager-and-how-to-get-started/), [here](https://www.theverge.com/2017/7/24/15921282/best-password-manager-1password-lastpass-dashlane-how-to) or [here](https://www.pcmag.com/article/325635/get-organized-why-arent-you-using-a-password-manager-yet)) and should be used by everyone.
+
+[LastPass](http://lastpass.com) is a popular and free password manager. It is most important that you are using any password manager, but The World Bank provides a free subscription to the premium features in LastPass for you. Visit the [LastPass Premium Partner Page](https://lastpass.com/partnerpremium/theworldbankgroup) to set up access.
+
+#### Two-Factor Authentication
+If you combine two-factor authentication with a password managers then your life on the web is as secure as it could possible be. The main draw back of most two-factor authentication is that it only works if you have your cell phone with you and it is charged.
+
+[Authy](https://authy.com/) is an exampe of a software that enables two-factor authentication on your personal accounts. [Authy for Apple iOS](https://itunes.apple.com/us/app/authy/id494168017) and [Authy for Android](https://play.google.com/store/apps/details?id=com.authy.authy)
+
+#### Shared Drive (DropBox etc.) encryption
 [VeraCrypt](http://veracrypt.fr) is a free encryption software that creates and manages "virtual thumb drives" that are inaccessible without a password. It can be used on World Bank machines to store and transfer sensitive data.
 
-## Atom Text and Code Editor
+## Atom Text and Code Editors
 
 [Atom](http://atom.io) is a powerful free text editor that has easy integrations with Git/GitHub and Stata, as well as other languages and softwares like LaTeX and Markdown. You can set it up on a personal computer with administration privileges. We are currently working on setup instructions for World Bank computers.
 
