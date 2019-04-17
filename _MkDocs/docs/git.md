@@ -46,7 +46,8 @@ This only applies to people with an active employment contract with the World Ba
 
 1. Complete the World Bank GitHub.com Pilot MOU below, and email it from your World Bank email address to the World Bank GitHub team at [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]".
 2. When the GitHub team have received your request and checked that it is in order they will add you to the group. You will then get an notification from GitHub.com to your email saying that you have been invited to the World Bank GitHub group.
-3. If you have been invited but you did not receive the invitation (the email got deleted or ended up in junk folder etc.) then you can always got o [github.com/worldbank](https://github.com/worldbank) and if you have a invitation waiting for you to join the World Bank GitHub group, then you will be promted to accept the invitation at the top of the page.
+3. If you have been invited but you did not receive the invitation (the email got deleted or ended up in junk folder etc.) then you can always got o [github.com/worldbank](https://github.com/worldbank) and if you have a invitation waiting for you to join the World Bank GitHub group, then you will be prompted to accept the invitation at the top of the page.
+4. Finally and optionally, if you want it to show on your profile page on GitHub that you are a member of the World Bank GitHub Group, then got to https://github.com/orgs/worldbank/people and search for your username, and make sure that _Public_ is slected instead of _Private_.
 
 
 ```
