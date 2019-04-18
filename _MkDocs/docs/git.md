@@ -99,7 +99,21 @@ Manager's Name:
 
 This does only apply to anyone who does not have an active contract with the World Bank. If you do have a active contract, then follow the steps for how to join the World Bank GitHub group and then this step is not needed.
 
-**MRIJAN YOU ADD INSTRUCTIONS FOR EXTERNAL COLLABORATORS HERE** - or send them to me and I will add.
+```
+External Collaborator Github.com Pilot MOU:
+1.	I am aware that I am requesting access to the World Bank Group's GitHub.com group and any associated public and private repositories within that group.
+2.	I am aware that GitHub.com is an open source platform and that potentially any data uploaded could become available to the public.
+3.	I am aware that private repositories should be for working drafts of non-sensitive information only that are not yet ready for public viewing.
+4.	I agree not to post any confidential or sensitive information on any public or private GitHub.com repository.
+5.	I agree not to make public any repository.
+6.	I agree that I will comply with all relevant copyright laws and will not post copyrighted material to which I do not have release to do so.
+7.	I agree to maintain backups of any data I upload into a repository locally, and that these are updated at least once a month while the project is still active.
+8.	I agree that I will keep my account username and password secure and will not share the user account with others.
+I certify that I have read all the above and agree to the World Bank Group’s rules for accessing its GitHub.com repositories.
+Name:
+Github account name:
+
+```
 
 
 ### Checklist for Intro to Git and GitHub training:
