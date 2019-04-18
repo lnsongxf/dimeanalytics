@@ -44,7 +44,7 @@ DIME team members can join the [World Bank GitHub group](https://github.com/worl
 
 This only applies to people with an active employment contract with the World Bank (although it includes anything from Staff, ETC, STC, to internship).
 
-1. Complete the World Bank GitHub.com Pilot MOU below by copying it to an email and filling in your information at the bottom of the MOU. Then email it from your World Bank email address to the World Bank GitHub team at [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]".
+1. Complete the World Bank GitHub.com Pilot MOU below by copying it to an email and filling in your information in the end of the MOU. Then email it from your World Bank email address to the World Bank GitHub team at [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Request to Join World Bank GitHub Group - [YOUR NAME]".
 2. When the GitHub team have received your request and checked that it is in order they will add you to the group. You will then get a notification from GitHub.com to your email saying that you have been invited to the World Bank GitHub group.
 3. If you have been invited but you did not receive the invitation (the email got deleted or ended up in junk folder etc.) then you can always got o [github.com/worldbank](https://github.com/worldbank) and if you have a invitation waiting for you to join the World Bank GitHub group, then you will be prompted to accept the invitation at the top of the page.
 4. Finally and optionally, if you want it to show on your profile page on GitHub that you are a member of the World Bank GitHub Group, then got to https://github.com/orgs/worldbank/people and search for your username, and make sure that _Public_ is selected instead of _Private_.
@@ -103,7 +103,7 @@ If you are an external collaborator, then follow these steps:
 
 1. Copy the MOU below to an email and after reading it, fill in your information at the end of the MOU. Then send that email to your World Bank counterpart who is an repo admin of the repository you want to be added to.
 2. The World Bank repo admin should then forward this email to github@worldbank.org from their World Bank email address.
-3. When the World Bank repo admin gets a confirmation from the World Bank GitHub team that everything was received in order, then the World Bank repo admin can invite the external collaborator to the repository. 
+3. When the World Bank repo admin gets a confirmation from the World Bank GitHub team that everything was received in order, then the World Bank repo admin can invite the external collaborator to the repository.
 
 ```
 External Collaborator Github.com Pilot MOU:
