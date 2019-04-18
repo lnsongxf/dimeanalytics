@@ -32,15 +32,15 @@ The World Bank has a team subscription to this which you can join ([see below](#
 
 There are many desktop Git clients you can use to interact with the master copy of your Git files hosted on the web, but [GitHub Desktop](https://desktop.github.com) and [GitKraken](https://www.gitkraken.com) are two clients supported on World Bank computers. GitHub Desktop is simple and therefore used in our training for absolute beginners, but we recommend anyone who intend to work a lot in Git to start using a more advanced Git client like GitKraken. Different people in the same project can use different clients, so a PI that only uses Git occasionally can use GitHub Desktop, at the same time an RA use GitKraken. DIME Analytics offers regular Git trainings as well as on-demand onboardings for teams and PIs and can help you get this software up and running.
 
-### World Bank GitHub Group
+## World Bank GitHub Group
 
 DIME team members can join the [World Bank GitHub group](https://github.com/worldbank/) to have access to premium features. To join this group, you must first have a GitHub account.
 
-**Create a GitHub account**
+### Create a GitHub account
 
 - If you do not already have a GitHub account, open one at [this link](https://github.com/join). While you can use any email address, we **recommend using a personal email when you sign up** so that you do not lose access to your GitHub account in case you were to change jobs. There is no need to create a second account if you already signed up using a work email as you can add multiple secondary email addresses to your account, and later change which address is your primary email address. But we are recommending using a personal email when signing up in the first place, as we have had people lose access to their GitHub account after changing employer when using a work email as primary email.
 
-#### Join the World Bank GitHub group
+### Join the World Bank GitHub group
 
 This only applies to people with an active employment contract with the World Bank (although it includes anything from Staff, ETC, STC, to internship).
 
@@ -69,7 +69,7 @@ Name:
 Github account name:
 ```
 
-#### Creating a repository within the World Bank GitHub group
+### Creating a repository within the World Bank GitHub group
 
 - To create a repository in the World Bank GitHub group, send the following email to your manager and to [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Approval Required: Create GitHub Repository [NAME]".
 
@@ -95,7 +95,7 @@ Manager's Name:
 
 - If the content of the repository can be public, it's occasionally easier to create it using your personal account. However, if you are creating a repo to share commands, or templates, or apps created as part of your project, or the replication folder for a paper, you may want it to be linked to the World Bank group so people can find it without having to look for your username.
 
-#### Joining a repository hosted in the World Bank GitHub group as a external collaborator
+### Joining a repository hosted in the World Bank GitHub group as a external collaborator
 
 This does only apply to anyone who does not have an active contract with the World Bank. If you do have a active contract, then follow the steps for how to join the World Bank GitHub group and then this step is not needed.
 
@@ -121,6 +121,7 @@ Github account name:
 
 ```
 
+## DIME GitHub training materials
 
 ### Checklist for Intro to Git and GitHub training:
 
