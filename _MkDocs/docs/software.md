@@ -25,8 +25,8 @@ To login to a Virtual Desktop, follow the following steps:
 1. After you are logged in you will get to a menu where you can select which software you are accessing. You can also click "Desktop" to access a virtual version of a World Bank computer.
 1. (OPTIONAL) If you know the property number of your WB computer(small silver sticker with a 7 digit number), then you can access your own World Bank desktop and local files.
     * Click on the "Bookmark" button at the top right of the "Desktops" page.
-    * In the URL , put "PC" followed by the property number. For example - PC1234567 if your property number is 1234567.
-    * In the Name column, put a name such as "World Bank desktop" and click "Save".
+    * On the new window that pops up, in the row labeled 'URL' , put "PC" followed by the property number. For example - PC1234567 if your property number is 1234567.
+    * In the 'Name' row, put a name such as "World Bank desktop" and click "Save".
     * Now double click on the new "World Bank desktop" icon to launch your remote desktop.
     
 If you have never logged in on a World Bank computer and therefore do not have a Windows password yet, you should call IT support on 32121 from any World Bank phone, or +1-202-473-2121 from any phone.
