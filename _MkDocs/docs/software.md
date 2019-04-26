@@ -12,7 +12,19 @@ The World Bank provides a WebEx subscription to all staff. You can access your a
 
 ## Remote Access to Bank Virtual Machines
 
-You are able to access a World Bank desktop from any personal computer using [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/). You will log in using your UPI and token, and giving you the ability to load a virtual desktop from any location. This can also be set up by ITS to provide a secure and powerful server interface for your team to store and analyze data using Virtual Desktop Infrastructure (VDI).
+You are able to access a virtual World Bank desktop from any personal computer using [Citrix Workspace](https://www.citrix.com/downloads/workspace-app/). This is close to, but not exactly the same, as you logging in to your World Bank desktop. The difference is that you will not have access to any software installed on your desktop in a local drive (for example Stata) and you will not have access to files saved locally (for example in the Documents folder). The virtual desktop is similar if you log in to a new World Bank computer for the first time. You will not have your local files, but you will have the network access, the one drive access, the intranet access etc. that you have from any World Bank desktop.
+
+To log in to your Virtual Desktop follow the following steps:
+
+1. [Download the Citrix software](https://www.citrix.com/downloads/workspace-app/) for the device you are using (PC, Mac etc.)
+1. After the download is complete, open the software and follow instructions. When you are asked to enter email or server address enter: _myconnect.wbg.org_
+1. Then you will be asked to enter your UPI (on the format _wb123456_), the windows password for your World Bank computer, and the passcode you are using for your token.
+    1. If you are using an email token you will get one more window asking you to enter the code sent to your email.
+1. After you are logged in you will get to menu where you can select which software you are accessing. You can also click Desktop to get a virtual version of a World Bank computer.
+
+If you have never logged in on a World Bank computer and therefore do not have a Windows password yet, you should call IT support on 32121 from any World Bank phone, or +1-202-473-2121 from any phone.
+
+This can also be set up by ITS to provide a secure and powerful server interface for your team to store and analyze data using Virtual Desktop Infrastructure (VDI).
 
 ## Stata & R
 
