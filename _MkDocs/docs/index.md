@@ -17,3 +17,25 @@ DIME Analytics has concluded the 2018 Recruitment Drive. Until the next Recruitm
 ## DIME Wiki
 
 The [DIME Wiki](http://dimewiki.worldbank.org) is a one-stop shop for [practical resources on impact evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-development-impact-evaluation-wiki). The Wiki home page is organized around four primary phases in the impact evaluation life-cycle: research design, data collection, analysis, and publication. Visit the DIME Wiki, create an account, and start editing!
+
+## DIME Analytics Resources
+
+### ietoolkit
+
+[ietoolkit](https://worldbank.github.io/ietoolkit/) provides a set of commands that address different aspects of data management and data analysis in relation to [Impact Evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-ietoolkit). The list of commands will be extended continuously, and suggestions for new commands are greatly appreciated. Some of the commands are related to standardized best practices developed at DIME (The World Bank’s unit for Impact Evaluations). For these commands, the corresponding help files provide justifications for the standardized best practices applied. See the [DIME Wiki entry](https://dimewiki.worldbank.org/wiki/ietoolkit) for more details.
+
+### iefieldkit
+
+[iefieldkit](https://www.github.com/worldbank/iefieldkit/) provides a set of commands that enable a reproducible primary data collection and cleaning workflow. The package is developed to facilitate a workflow including (1) data collection (in particular using opendatakit.org, more specifically surveycto.com); (2) basic data cleaning, such as labeling and recoding; (3) reconciling survey rounds; (4) preparing codebooks to document data sets. iefieldkit was developed to standardize and simplify best practices for high-quality primary data collection across the World Bank's Development Research Group Impact Evaluations team (DIME). The commands can also be used independently, and are developed to be applicable to many other contexts as well. See the [DIME Wiki entry](https://dimewiki.worldbank.org/wiki/Iefieldkit) for more details.
+
+### World Bank Stata GitHub
+
+The [World Bank Stata GitHub](https://worldbank.github.io/stata/) is an effort to debug, polish, improve, and disseminate useful reusable Stata code that is developed during the course of work. This repository is for such useful snippets – formalized as adofiles – which automate routine data management, statistical analysis, and graphing tasks such as data import and cleaning, production of summary statistics tables, and categorical bar charts with confidence intervals.
+
+### Stata IE Visual Library
+
+The [Stata IE Visual Library](https://worldbank.github.io/Stata-IE-Visual-Library/) is a repository maintained by DIME and containing example graphs on how to explore data sets and display results of Impact Evaluations using Stata.
+
+### LaTeX Templates Library
+
+The [LaTeX Templates Library](https://github.com/worldbank/DIME-LaTeX-Templates) contains resources that will help you make your research more reproducible. This will save you a substantial amount of time, significantly reduce the risk for human errors when exporting results to your papers, and make your research more transparent. We have prepared exercises that will make it easy for you to start using these resources.
