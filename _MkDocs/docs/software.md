@@ -4,7 +4,7 @@ This section lists step-by-step installation instructions for various software D
 
 ## Dropbox
 
-DIME members are allowed to utilize [Dropbox](https://www.dropbox.com/h) on personal and World Bank computers. Contact DIME Analytics to request an installation on a Bank machine, or start using your personal machine right away.
+DIME members are allowed to utilize [Dropbox](https://www.dropbox.com/h) on personal and World Bank computers. Contact [DIME Analytics](mailto:dimeanalytics@worldbank.org) to request an installation on a Bank machine, or start using your personal machine right away.
 
 ## Videoconferencing
 
@@ -33,7 +33,7 @@ If you have never logged in on a World Bank computer and therefore do not have a
 
 ## Stata & R
 
-DIME has a [Stata MP](https://www.stata.com) license for use on Bank and personal laptops and Bank servers. [R and RStudio](https://www.rstudio.com) are free, and we additionally have a powerful RStudio Server and Shiny installation we can provide access to. Contact DIME Analytics for details.
+DIME has a [Stata MP](https://www.stata.com) license for use on Bank and personal laptops and Bank servers. [R and RStudio](https://www.rstudio.com) are free, and we additionally have a powerful RStudio Server and Shiny installation we can provide access to. Contact [DIME Analytics](mailto:dimeanalytics@worldbank.org) for details.
 
 ## SurveyCTO
 
