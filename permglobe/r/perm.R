@@ -221,7 +221,10 @@ for(i in 1:20) {
     scale_x_continuous(labels = c("100°W", "0°E", "100°E"), breaks = c(-100, 0, 100), limits = c(-180, 180), name = NULL) +
     scale_y_continuous(labels = c("50°S", "0°N", "50°N"), breaks = c(-50, 0, 50), limits = c(-90, 90), name = NULL)
   ggsave(filename = paste0("output/perm", sprintf("%02d", i), ".jpg"),
-         plot = gridExtra::grid.arrange(gmap, greg, ncol = 1),
+         plot = gridExtra::grid.arrange(gmap + ggtitle("Randomly drawn equators (and regressions)") +
+                                          theme(plot.title = element_text(face = "bold")),
+                                        greg,
+                                        ncol = 1, heights = c(3.3, 2.7)),
          width = 6, height = 6)
 }
 # GENERATE GIF FOR SIMS
