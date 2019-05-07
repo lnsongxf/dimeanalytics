@@ -9,7 +9,7 @@ library(geosphere)
 library(rgdal)
 library(viridis)
 
-setwd("ENTER YOUR FILE PATH HERE")
+setwd("/home/newuser/filepath")
 
 # PREFERRED COLORS
 watercols5 <- viridis.map %>% filter(opt == "C") %>% `[`(,1:3) %>% sapply(function(x) { x[c(1, 64, 128, 192, 256)] }) %>%
