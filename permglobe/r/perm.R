@@ -125,7 +125,7 @@ spatialse <- lapply(c(seq(0, 6000, 100)), function(r) {
     solve(t(datax) %*% datax)
   # SQRT TO GET SE
   ser <- sqrt(ser)
-  # EFFECTIVE NUMBER OF CLUSTERS
+  # BACK OUT EFFECTIVE NUMBER OF CLUSTERS
   nclur <- nrow(data)^2 / sum(datadist <= r)
   # DOF ADJUSTMENT
   sestata <- ser * sqrt((nrow(data) - 1) / (nrow(data) - 2)) * sqrt(nclur / (nclur - 1))
@@ -136,7 +136,7 @@ spatialse <- lapply(c(seq(0, 6000, 100)), function(r) {
          pvalstata = 2 * (1 - pnorm(coef(reg)[2] / sestata)))
 # GET P VALUE FROM PERMUTATION INFERENCE
 permse <- data.frame(pval = mean(abs(coef(reg)[2]) < abs(sims))) %>%
-  # AND "EFFECTIVE" STANDARD ERROR
+  # AND "EFFECTIVE" STANDARD ERROR FROM RANDOMIZATION INFERENCE
   mutate(se = coef(reg)[2] / qnorm(1 - pval / 2))
 
 # PLOT PERFORMANCE OF CONLEY STANDARD ERRORS
