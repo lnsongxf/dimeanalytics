@@ -165,7 +165,6 @@ gsims <- ggplot(simsdf, aes(x = sim, group = name, linetype = name)) +
   scale_y_continuous(name = "Density") +
   scale_linetype_discrete(name = "Randomization inference type", labels = c("Naive", "Spatial")) +
   theme(legend.position = "top")
-ggsave(filename = "output/permdist.jpg", gsims, width = 6, height = 6)
 
 # CALCULATE DISTANCE MATRIX BETWEEN COUNTRIES' CENTROIDS
 datadist <- distm(matrix(c(data$longitude, data$latitude), ncol = 2, byrow = F),
