@@ -299,33 +299,43 @@ for(i in 1:20) {
       geom_abline(data = dfcoefs[1:(i-1),], aes(intercept = intercept, slope = coef), alpha = 0.3, col = watercols5[3])
   }
   greg <- greg +
-    # ADD REGRESSION LINE FOR CURRENT SIM
-    geom_abline(data = dfcoefs[i,], aes(intercept = intercept, slope = coef), col = watercols5[3]) +
-    # ADD ACTUAL (absolute latitude, log GDP per capita)
-    geom_point(data = data %>% mutate(abslat = abs(latitude)), aes(x = abslat, y = lgdppc),
-               shape = 1) +
-    # ADD (absolute latitude, log GDP per capita) FOR RANDOM LATITUDE FOR CURRENT SIM
-    geom_point(data = simsplot[,i]$data %>% mutate(abslat = abs(newlatitude)), aes(x = abslat, y = lgdppc), col = watercols5[3],
-               shape = 1) +
-    # ADD ESTIMATED REGRESSION LINE
+    # ADD (absolute latitude, log GDP per capita) FOR RANDOM LATITUDE FOR CURRENT SIM AND ACTUAL EQUATOR
+    geom_point(data = bind_rows(data %>% mutate(abslat = abs(latitude)) %>% select(lgdppc, abslat) %>%
+                                  mutate(name = "Actual equator"),
+                                simsplot[,i]$data %>% mutate(abslat = abs(newlatitude)) %>% select(lgdppc, abslat) %>%
+                                  mutate(name = "Randomly drawn equator")),
+               aes(x = abslat, y = lgdppc, group = name, col = name), shape = 1) +
+    # ADD REGRESSION LINES FOR CURRENT SIM AND ESTIMATED REGRESSION LINE
+    geom_abline(slope = dfcoefs$coef[i], intercept = dfcoefs$intercept[i], col = watercols5[3]) +
     geom_abline(slope = coef(reg)[2] / 100, intercept = coef(reg)[1]) +
+    # LEGEND HACKING
+    geom_line(data = data.frame(name = c("Actual equator", "Randomly drawn equator"), x = as.numeric(NA), y = as.numeric(NA)),
+              aes(col = name, x = x, y = y)) +
     # FORMATTING
     scale_x_continuous(limits = c(0, 90), name = "Absolute latitude", breaks = seq(0, 80, 20),
                        labels = paste0(seq(0, 80, 20), "°")) +
-    scale_y_continuous(name = "log GDP per capita", limits = range(data$lgdppc))
+    scale_y_continuous(name = "log GDP per capita", limits = range(data$lgdppc)) +
+    scale_color_manual(name = "Regression using",
+                       values = c("Actual equator" = "black", "Randomly drawn equator" = watercols5[3])) +
+    theme(legend.position = "top")
   
   # CREATE TOP PANEL FIGURE (SHOWING THE MAP WITH RANDOM EQUATORS)
   gmap <- ggplot(data = data.frame(), aes(x = longitude, y = latitude)) +
     # COUNTRY BOUNDARIES (FILLED BY log GDP per capita)
     geom_polygon(data = gcountries %>% left_join(data %>% select(isocode, lgdppc)),
                  aes(fill = lgdppc, group = group), col = "white") +
-    # ADD ACTUAL EQUATOR
-    annotate(geom = "segment", x = -180, xend = 180, y = 0, yend = 0, col = "black") +
-    # ADD RANDOMLY GENERATED EQUATOR
-    geom_path(data = getgreatcircle(simsplot[,i]$newpole)$gc %>% arrange(longitude), col = watercols5[3], linetype = 2) +
+    # ADD ACTUAL EQUATOR AND RANDOMLY GENERATED EQUATOR
+    geom_path(data = bind_rows(getgreatcircle(simsplot[,i]$newpole)$gc %>% arrange(longitude) %>%
+                                 select(longitude, latitude) %>% mutate(name = "Randomly drawn equator"),
+                               data.frame(longitude = c(-180, 180), latitude = 0,
+                                          name = "Actual equator")),
+              aes(x = longitude, y = latitude, group = name, col = name)) +
     # FORMATTING
     scale_fill_gradient(na.value = "white", low = "grey70", high = "grey10") +
-    theme(legend.position = "none") +
+    scale_color_manual(name = NULL,
+                       values = c("Actual equator" = "black", "Randomly drawn equator" = watercols5[3])) +
+    theme(legend.position = "top") +
+    guides(fill = F) +
     scale_x_continuous(labels = c("100°W", "0°E", "100°E"), breaks = c(-100, 0, 100), limits = c(-180, 180), name = NULL) +
     scale_y_continuous(labels = c("50°S", "0°N", "50°N"), breaks = c(-50, 0, 50), limits = c(-90, 90), name = NULL)
   
@@ -334,7 +344,7 @@ for(i in 1:20) {
          plot = gridExtra::grid.arrange(gmap + ggtitle("Randomly drawn equators (and regressions)") +
                                           theme(plot.title = element_text(face = "bold")),
                                         greg,
-                                        ncol = 1, heights = c(3.3, 2.7)),
+                                        ncol = 1, heights = c(3.2, 2.8)),
          width = 6, height = 6)
 }
 
