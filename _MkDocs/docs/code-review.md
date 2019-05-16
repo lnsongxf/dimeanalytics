@@ -58,29 +58,29 @@ The Analytics team will get back to you within two weeks of receiving the comple
 
 For your review, we will return a list of specific replicability or execution errors if any occur, as well as general suggestions for code improvements and places where existing programs can save time and effort for your future work. We are happy to provide more specific suggestions to your team for improving the function and readability of the code if you have questions. If you wish, we can also help you organize a public release package.
 
-### Code Review Requirements Checklist
+### Code Review Checklist
 
 #### Computational Reproducibility (Required)
 
-- Provide a `.zip` file or GitHub link with the entire project directory. See https://github.com/worldbank/Water-When-It-Counts for an example of an organized directory structure. The folders should include:
-  - All necessary de-identified data for the analysis
-  - All code necessary for the analysis
-  - The raw outputs you have used for the paper
-  - Using `iefolder` from our `ietoolkit` can help standardize this in Stata.
+- Provide a `.zip` file or GitHub link with the entire project directory. See [https://github.com/worldbank/Water-When-It-Counts](https://github.com/worldbank/Water-When-It-Counts) for an example of an organized directory structure. The folders should include:
+    - All necessary de-identified data for the analysis
+    - All code necessary for the analysis
+    - The raw outputs you have used for the paper
+    - Using `iefolder` from our `ietoolkit` can help standardize this in Stata.
 
 - In either the `/dofiles/` folder or in the root directory, include a master script (dofile or Rscript for example). The master script should allow the reviewer to change one line of code setting the directory path. Then, running the master script should run the entire project and re-create all the raw outputs exactly as supplied.
     - Indicate the filename and line to change in your submission email.
     - Using `iefolder` from our `ietoolkit` can help set this up.
 
 - Check that all your code will run completely on a new computer. This means
-  - install any required user-written commands in the master script (for example, in Stata using `ssc install` or `net install` and in R include code for installing packages, including installing the appropriate version of the package if necessary),
-  - Make sure critical settings like `version`, `matsize`, and `varabbrev` are set correctly.
-  - The master file should indicate the settings of these needed to run, or use a wrapper command like `ieboilstart` from `ietoolkit`
+    - install any required user-written commands in the master script (for example, in Stata using `ssc install` or `net install` and in R include code for installing packages, including installing the appropriate version of the package if necessary),
+    - Make sure critical settings like `version`, `matsize`, and `varabbrev` are set correctly.
+    - The master file should indicate the settings of these needed to run, or use a wrapper command like `ieboilstart` from `ietoolkit`
 
 - All outputs should clearly correspond by name to an exhibit in the paper, and vice versa.
-  - Code and outputs which are not used should be removed.
-  - Supplying a compiling TeX document can support this.
-  - The submission package should include these outputs in the location they are produced.
+    - Code and outputs which are not used should be removed.
+    - Supplying a compiling TeX document can support this.
+    - The submission package should include these outputs in the location they are produced.
 
 - Let us know: Approximately how long does the code take to run (ie, minutes, hours, or days)?
 
