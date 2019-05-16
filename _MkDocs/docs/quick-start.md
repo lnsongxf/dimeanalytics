@@ -67,7 +67,7 @@ Welcome to DIME! Please review and complete the following steps so that you can 
 ​​If you are expected to travel for business, the World Bank provides a special passport. Inquire with DIME Analytics for details if this is necessary. Make sure you do so well in advance of your travel dates.
 
 ## Get health insurance.
-​​There is a Bank-organized health insurance option for STCs. Ask for more information.
+​​There is a Bank-organized health, vision, and dental insurance option for STCs. Visit [this website](http://worldbank.benelist.com/welcome_en.aspx) for more information.
 
 ## Printing at the World Bank
 ​​You can print from a Bank computer or a Citrix virtual machine from <http://myconnect.wbg.org>, or you can email your documents to wbgmobileprint@worldbank.org.
