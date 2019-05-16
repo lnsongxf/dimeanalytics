@@ -12,7 +12,7 @@ When you submit a working paper for internal review, DIME Analytics will support
     - All data required to produce the results
     - The TeX file that compiles the tables and figures (if applicable)
 
-### Review Requirements
+### Code Review Requirements
 
 We are happy to review code for both reproducibility and any other requests the team may have, given reasonable notice and time constraints. The best method is to share a Dropbox folder or GitHub repository with all the necessary code and documentation included. In either case, the shared folder should be freshly created specifically for the review. There are some basic reproducibility requirements we enforce before beginning detailed code review, so it is usually good for the programming team to verify the following before submitting:
 
@@ -51,6 +51,49 @@ Once we verify that the code structure as a whole is fully reproducible in this 
    }
 ```
 The order of the outputted tables and figures should be obvious from the way they are named and organized. The Analytics team will return to you a list of reproducibility issues if any occur, as well as general (major and minor) suggestions for code improvements and places where existing programs can save time and effort for your future work, just as in a peer review.
+
+We recommend that you review and complete the following reproducibility checklist before submitting your code files for review. You are encouraged to submit the completed checklist as an exhibit or appendix to your working paper, since these materials directly attest to the transparency and credibility of your research project.
+
+The Analytics team will get back to you within two weeks of receiving the complete package. We will edit only the top-level directory global in the master do-file and run it to reproduce the results. We will make sure that your files run and that the raw outputs are re-created exactly as you supplied them; and if possible we will check them against the publication to confirm no transcription errors.
+
+For your review, we will return a list of specific replicability or execution errors if any occur, as well as general suggestions for code improvements and places where existing programs can save time and effort for your future work. We are happy to provide more specific suggestions to your team for improving the function and readability of the code if you have questions. If you wish, we can also help you organize a public release package.
+
+### Code Review Requirements Checklist
+
+#### Computational Reproducibility (Required)
+
+- Provide a `.zip` file or GitHub link with the entire project directory. See https://github.com/worldbank/Water-When-It-Counts for an example of an organized directory structure. The folders should include:
+  - All necessary de-identified data for the analysis
+  - All code necessary for the analysis
+  - The raw outputs you have used for the paper
+  - Using `iefolder` from our `ietoolkit` can help standardize this in Stata.
+
+- In either the `/dofiles/` folder or in the root directory, include a master script (dofile or Rscript for example). The master script should allow the reviewer to change one line of code setting the directory path. Then, running the master script should run the entire project and re-create all the raw outputs exactly as supplied.
+    - Indicate the filename and line to change in your submission email.
+    - Using `iefolder` from our `ietoolkit` can help set this up.
+
+- Check that all your code will run completely on a new computer. This means
+  - install any required user-written commands in the master script (for example, in Stata using `ssc install` or `net install` and in R include code for installing packages, including installing the appropriate version of the package if necessary),
+  - Make sure critical settings like `version`, `matsize`, and `varabbrev` are set correctly.
+  - The master file should indicate the settings of these needed to run, or use a wrapper command like `ieboilstart` from `ietoolkit`
+
+- All outputs should clearly correspond by name to an exhibit in the paper, and vice versa.
+  - Code and outputs which are not used should be removed.
+  - Supplying a compiling TeX document can support this.
+  - The submission package should include these outputs in the location they are produced.
+
+- Let us know: Approximately how long does the code take to run (ie, minutes, hours, or days)?
+
+#### Ease of Use (Recommended)
+
+- Analysis scripts should not include any data cleaning or variable creation, unless technically necessary for the creation of a table or graphic (eg, the `separate` command in Stata).
+- Data cleaning of raw variables should not be included in the analysis package at all.
+- Variable creation for derived or constructed measures should be included in a separate script with detailed code comments about each new variable that is generated.
+- Analysis scripts should be completely modular. The section for each exhibit should begin with a fresh environment (`use` or `clear` in Stata, or start a fresh R session). This can also be accomplished by having a separate scripts for each exhibit.
+- Analysis code should be well-commented and indented, such that the reader can easily identify functional chunks of code and evaluate whether they correctly implement the econometric or statistical process described. The reader should not have to figure out the process by reading the code.
+- Graphics should be output as `.eps` files when possible.
+- Tables should be output as `.csv` or `.tex` files when possible.
+- In-text numerical citations that are not drawn directly from tables and figures should be computed and recorded in a separate file, such as a dynamic document format like `.stmd` using `markstat` in Stata or `.rmd` using R.
 
 ## Public Release
 
