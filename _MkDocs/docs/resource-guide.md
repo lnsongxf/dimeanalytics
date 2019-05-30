@@ -4,7 +4,7 @@
 <html>
 <head>
 <title>Data for Development Impact</title>
-<meta http-equiv="refresh" content="0;url=http://bbdaniels.github.io">
+<meta http-equiv="refresh" content="0;url=https://worldbank.github.com/d4di">
 
 </head>
 <body>
