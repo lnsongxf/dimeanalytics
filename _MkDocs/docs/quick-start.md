@@ -20,7 +20,7 @@ Welcome to DIME! Please review and complete the following steps so that you can 
 
 ## Get a computer and software.
 
-​​DIME Analytics will provide software setup for Stata 15, Git, Dropbox, and much more. The World Bank has several other useful software/webapp subscriptions you can access. Details are on the [Resource Guide](http://worldbank.github.io/dimeanalytics).
+​​DIME Analytics will support software setup for Stata 15, Git, Dropbox, and much more via local IT. The World Bank has several other useful software/webapp subscriptions you can access. Details are on the [Resource Guide](http://worldbank.github.io/dimeanalytics).
 
 ## Explore the Intranet.
 
@@ -68,6 +68,11 @@ Welcome to DIME! Please review and complete the following steps so that you can 
 
 ## Get health insurance.
 ​​There is a Bank-organized health, vision, and dental insurance option for STCs. Visit [this website](http://worldbank.benelist.com/welcome_en.aspx) for more information.
+
+## Get a phone plan.
+The World Bank participates in the T-Mobile Advantage Program,
+which offers various discounts or rebates to customers with a Bank email.
+Visit [this website](https://validate.t-mobile.com/employee-discount) for more information.
 
 ## Printing at the World Bank
 ​​You can print from a Bank computer or a Citrix virtual machine from <http://myconnect.wbg.org>, or you can email your documents to wbgmobileprint@worldbank.org.

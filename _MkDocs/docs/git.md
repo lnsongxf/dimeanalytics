@@ -30,7 +30,7 @@ The World Bank has a team subscription to this which you can join ([see below](#
 
 ## Git Clients
 
-There are many desktop Git clients you can use to interact with the master copy of your Git files hosted on the web, but [GitHub Desktop](https://desktop.github.com) and [GitKraken](https://www.gitkraken.com) are two clients supported on World Bank computers. GitHub Desktop is simple and therefore used in our training for absolute beginners, but we recommend anyone who intend to work a lot in Git to start using a more advanced Git client like GitKraken. Different people in the same project can use different clients, so a PI that only uses Git occasionally can use GitHub Desktop, at the same time an RA use GitKraken. DIME Analytics offers regular Git trainings as well as on-demand onboardings for teams and PIs and can help you get this software up and running.
+There are many desktop Git clients you can use to interact with the master copy of your Git files hosted on the web, but [GitHub Desktop](https://desktop.github.com) and [GitKraken](https://www.gitkraken.com) are two clients supported on World Bank computers. GitHub Desktop is simple and therefore used in our training for absolute beginners, but we recommend anyone who intend to work a lot in Git to start using a more advanced Git client like GitKraken, although there is a subscription required to work with private repositories. Different people in the same project can use different clients, so a PI that only uses Git occasionally can use GitHub Desktop, at the same time an RA use GitKraken. DIME Analytics offers regular Git trainings as well as on-demand onboardings for teams and PIs and can help you get this software up and running.
 
 ## World Bank GitHub Group
 
