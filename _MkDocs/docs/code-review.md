@@ -2,7 +2,7 @@
 
 ## Pre-publication Code Review
 
-When you submit a working paper for internal review, DIME Analytics will support review and release of the reproduction data and code via the [World Bank GitHub](https://github.com/worldbank). The goal is to ensure that working papers by DIME are fully reproducible. To complete this review, please submit the following to [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) alongside the submission of the working paper to the peer review process (currently organized by Dan Rogger):
+When you submit a working paper for internal review, DIME Analytics will support review and release of the reproduction data and code via the [World Bank GitHub](https://github.com/worldbank). The goal is to ensure that working papers by DIME are fully reproducible. To complete this review, please [complete the Code Review Checklist](https://www.dropbox.com/s/a98fur2ao0ui813/DIME%20Analytics%20Code%20Review%20Checklist.pdf?raw=1) and submit it and the following materials to [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) alongside the submission of the working paper to the peer review process (currently organized by Dan Rogger):
 
 1. The working paper submission, including tables and figures
     - Filenames for tables and figures **must** correspond to the paper
@@ -12,9 +12,48 @@ When you submit a working paper for internal review, DIME Analytics will support
     - All data required to produce the results
     - The TeX file that compiles the tables and figures (if applicable)
 
-### Code Review Requirements
+### Code Review Checklist
 
-We are happy to review code for both reproducibility and any other requests the team may have, given reasonable notice and time constraints. The best method is to share a Dropbox folder or GitHub repository with all the necessary code and documentation included. In either case, the shared folder should be freshly created specifically for the review. There are some basic reproducibility requirements we enforce before beginning detailed code review, so it is usually good for the programming team to verify the following before submitting:
+#### Computational Reproducibility (Required)
+
+- Provide a `.zip` file or GitHub link with the entire project directory. See [this project](https://github.com/worldbank/Water-When-It-Counts) for an example of an organized directory structure. The folders should include:
+    - All necessary de-identified data for the analysis
+    - All code necessary for the analysis
+    - The raw outputs you have used for the paper
+    - **No extraneous documentation or PII data you would not share publicly**
+    - **No outputs or datasets that are not used in the analysis**
+    - Using `iefolder` from our `ietoolkit` can help standardize this in Stata.
+
+- In either the `/dofiles/` folder or in the root directory, include a master script (dofile or Rscript for example). The master script should allow the reviewer to change one line of code setting the directory path. Then, running the master script should run the entire project and re-create all the raw outputs exactly as supplied.
+    - Indicate the filename and line to change in your submission email.
+    - Using `iefolder` from our `ietoolkit` can help set this up.
+
+- Check that all your code will run completely on a new computer. This means
+    - install any required user-written commands in the master script (for example, in Stata using `ssc install` or `net install` and in R include code for installing packages, including installing the appropriate version of the package if necessary),
+    - Make sure critical settings like `version`, `matsize`, and `varabbrev` are set correctly.
+    - The master file should indicate the settings of these needed to run, or use a wrapper command like `ieboilstart` from `ietoolkit`
+
+- All outputs should clearly correspond by name to an exhibit in the paper, and vice versa.
+    - Code and outputs which are not used should be removed.
+    - Supplying a compiling TeX document can support this.
+    - The submission package should include these outputs in the location they are produced.
+
+- Let us know: Approximately how long does the code take to run (ie, minutes, hours, or days)?
+
+#### Ease of Use (Recommended)
+
+- Analysis scripts should not include any data cleaning or variable creation, unless technically necessary for the creation of a table or graphic (eg, the `separate` command in Stata).
+- Data cleaning of raw variables should not be included in the analysis package at all.
+- Variable creation for derived or constructed measures should be included in a separate script with detailed code comments about each new variable that is generated.
+- Analysis scripts should be completely modular. The section for each exhibit should begin with a fresh environment (`use` or `clear` in Stata, or start a fresh R session). This can also be accomplished by having a separate scripts for each exhibit.
+- Analysis code should be well-commented and indented, such that the reader can easily identify functional chunks of code and evaluate whether they correctly implement the econometric or statistical process described. The reader should not have to figure out the process by reading the code.
+- Graphics should be output as `.eps` files when possible.
+- Tables should be output as `.csv` or `.tex` files when possible.
+- In-text numerical citations that are not drawn directly from tables and figures should be computed and recorded in a separate file, such as a dynamic document format like `.stmd` using `markstat` in Stata or `.rmd` using R.
+
+### Code Review Process
+
+We are happy to review code for both reproducibility and any other requests the team may have, given reasonable notice and time constraints. The review folder should be freshly created specifically for the review. There are some basic reproducibility requirements we enforce before beginning detailed code review, so it is usually good for the programming team to verify the following before submitting:
 
 1. The “master” do-file is contained in the root directory of the shared folder and is the only do-file there;
 1. There is one line in the master do-file that needs to be adjusted to set the location of the root directory; and
@@ -57,43 +96,6 @@ We recommend that you review and complete the following reproducibility checklis
 The Analytics team will get back to you within two weeks of receiving the complete package. We will edit only the top-level directory global in the master do-file and run it to reproduce the results. We will make sure that your files run and that the raw outputs are re-created exactly as you supplied them; and if possible we will check them against the publication to confirm no transcription errors.
 
 For your review, we will return a list of specific replicability or execution errors if any occur, as well as general suggestions for code improvements and places where existing programs can save time and effort for your future work. We are happy to provide more specific suggestions to your team for improving the function and readability of the code if you have questions. If you wish, we can also help you organize a public release package.
-
-### Code Review Checklist
-
-#### Computational Reproducibility (Required)
-
-- Provide a `.zip` file or GitHub link with the entire project directory. See [https://github.com/worldbank/Water-When-It-Counts](https://github.com/worldbank/Water-When-It-Counts) for an example of an organized directory structure. The folders should include:
-    - All necessary de-identified data for the analysis
-    - All code necessary for the analysis
-    - The raw outputs you have used for the paper
-    - Using `iefolder` from our `ietoolkit` can help standardize this in Stata.
-
-- In either the `/dofiles/` folder or in the root directory, include a master script (dofile or Rscript for example). The master script should allow the reviewer to change one line of code setting the directory path. Then, running the master script should run the entire project and re-create all the raw outputs exactly as supplied.
-    - Indicate the filename and line to change in your submission email.
-    - Using `iefolder` from our `ietoolkit` can help set this up.
-
-- Check that all your code will run completely on a new computer. This means
-    - install any required user-written commands in the master script (for example, in Stata using `ssc install` or `net install` and in R include code for installing packages, including installing the appropriate version of the package if necessary),
-    - Make sure critical settings like `version`, `matsize`, and `varabbrev` are set correctly.
-    - The master file should indicate the settings of these needed to run, or use a wrapper command like `ieboilstart` from `ietoolkit`
-
-- All outputs should clearly correspond by name to an exhibit in the paper, and vice versa.
-    - Code and outputs which are not used should be removed.
-    - Supplying a compiling TeX document can support this.
-    - The submission package should include these outputs in the location they are produced.
-
-- Let us know: Approximately how long does the code take to run (ie, minutes, hours, or days)?
-
-#### Ease of Use (Recommended)
-
-- Analysis scripts should not include any data cleaning or variable creation, unless technically necessary for the creation of a table or graphic (eg, the `separate` command in Stata).
-- Data cleaning of raw variables should not be included in the analysis package at all.
-- Variable creation for derived or constructed measures should be included in a separate script with detailed code comments about each new variable that is generated.
-- Analysis scripts should be completely modular. The section for each exhibit should begin with a fresh environment (`use` or `clear` in Stata, or start a fresh R session). This can also be accomplished by having a separate scripts for each exhibit.
-- Analysis code should be well-commented and indented, such that the reader can easily identify functional chunks of code and evaluate whether they correctly implement the econometric or statistical process described. The reader should not have to figure out the process by reading the code.
-- Graphics should be output as `.eps` files when possible.
-- Tables should be output as `.csv` or `.tex` files when possible.
-- In-text numerical citations that are not drawn directly from tables and figures should be computed and recorded in a separate file, such as a dynamic document format like `.stmd` using `markstat` in Stata or `.rmd` using R.
 
 ## Public Release
 
