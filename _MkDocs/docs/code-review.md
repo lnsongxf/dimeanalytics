@@ -2,7 +2,7 @@
 
 ## Pre-publication Code Review
 
-When you submit a working paper for internal review, DIME Analytics will support review and release of the reproduction data and code via the [World Bank GitHub](https://github.com/worldbank). The goal is to ensure that working papers by DIME are fully reproducible. To complete this review, please [complete the Code Review Checklist](https://www.dropbox.com/s/a98fur2ao0ui813/DIME%20Analytics%20Code%20Review%20Checklist.pdf?raw=1) and submit it and the following materials to [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) alongside the submission of the working paper to the peer review process (currently organized by Dan Rogger):
+When you submit a working paper for internal review, DIME Analytics will support review and release of the reproduction data and code via the [World Bank GitHub](https://github.com/worldbank). The goal is to ensure that working papers by DIME are fully reproducible. To complete this review, please [complete the Code Review Checklist](https://github.com/worldbank/dimeanalytics/raw/master/non-mkdocs%20resources/DIME%20Analytics%20Code%20Review%20Checklist.pdf) and submit it and the following materials to [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org) alongside the submission of the working paper to the peer review process (currently organized by Dan Rogger):
 
 1. The working paper submission, including tables and figures
     - Filenames for tables and figures **must** correspond to the paper
