@@ -18,6 +18,10 @@ DIME Analytics has concluded the 2018 Recruitment Drive. Until the next Recruitm
 
 The [DIME Wiki](http://dimewiki.worldbank.org) is a one-stop shop for [practical resources on impact evaluations](http://blogs.worldbank.org/impactevaluations/ie-analytics-introducing-development-impact-evaluation-wiki). The Wiki home page is organized around four primary phases in the impact evaluation life-cycle: research design, data collection, analysis, and publication. Visit the DIME Wiki, create an account, and start editing!
 
+## Data for Development Impact
+
+Data for Development Impact is the Resource Guide of DIME Analytics. It is currently in a pre-publication edition and is a companion to the DIME Wiki and our other training resources. You can get a copy in print from DIME Analytics or [access the PDF at this link](https://worldbank.github.io/d4di/). Feedback is greatly appreciated!
+
 ## DIME Analytics Resources
 
 ### ietoolkit
