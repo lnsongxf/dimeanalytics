@@ -28,12 +28,12 @@ To login to a Virtual Desktop, follow the following steps:
     * On the new window that pops up, in the row labeled 'URL' , put "PC" followed by the property number. For example - PC1234567 if your property number is 1234567.
     * In the 'Name' row, put a name such as "World Bank desktop" and click "Save".
     * Now double click on the new "World Bank desktop" icon to launch your remote desktop.
-    
+
 If you have never logged in on a World Bank computer and therefore do not have a Windows password yet, you should call IT support on 32121 from any World Bank phone, or +1-202-473-2121 from any phone.
 
 ## Stata & R
 
-DIME has a [Stata MP](https://www.stata.com) license for use on Bank and personal laptops and Bank servers. [R and RStudio](https://www.rstudio.com) are free, and we additionally have a powerful RStudio Server and Shiny installation we can provide access to. Contact [DIME Analytics](mailto:dimeanalytics@worldbank.org) for details.
+The World Bank has a [Stata MP](https://www.stata.com) license for use on Bank computers available for purchase. [R and RStudio](https://www.rstudio.com) are free, and we additionally have RStudio Server and Shiny installations we can provide access to. Contact [DIME Analytics](mailto:dimeanalytics@worldbank.org) for details.
 
 ## SurveyCTO
 
