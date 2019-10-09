@@ -8,7 +8,7 @@ __← The sidebar__ has navigation links to all services we offer.
 
 ## DIME Analytics Services
 
-All of our routine services are detailed in the sidebar. For an overview of our activities for the 2017 Fiscal Year, and plans for the 2018 Fiscal Year, see our [Annual Update](https://www.dropbox.com/s/pe6rb83751fa05f/DIME%20Analytics%20Team%20Update.pdf?raw=1).
+All of our routine services are detailed in the sidebar. For an overview of our activities for the 2018 Fiscal Year, and plans for the 2019 Fiscal Year, see our [Annual Update](https://www.dropbox.com/s/btc54wr55sfk4nx/2019_10%20Analytics%20FY20.pdf?raw=1).
 
 ## Recruitment Drive
 
