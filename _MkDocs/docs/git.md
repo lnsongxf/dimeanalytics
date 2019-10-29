@@ -76,7 +76,7 @@ Github account name:
 ```
 Hi [MANAGER], can you please approve the following request for GitHub repository creation:
 
-Repository Name:
+Repository Name (use - instead of space if possible):
 
 Repository Description/Purpose:
 
