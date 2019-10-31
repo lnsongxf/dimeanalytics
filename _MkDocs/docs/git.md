@@ -80,6 +80,8 @@ Repository Name (use - instead of space if possible):
 
 Repository Description/Purpose:
 
+Should this repo be public or private:
+
 Team Name:
 
 Team Maintainer(s) - Name and UPI:
