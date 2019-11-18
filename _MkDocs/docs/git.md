@@ -78,13 +78,13 @@ Hi [MANAGER], can you please approve the following request for GitHub repository
 
 Repository Name (use - instead of space if possible):
 
-Repository Description/Purpose:
+Repository Description/Purpose (will be displayed on GitHub.com):
 
 Should this repo be public or private:
 
-Team Name:
+World Bank GitHub Team Name (existing or to be created):
 
-Team Maintainer(s) - Name and UPI:
+Who is (existing Teams) or will be (teams to be created) Team Maintainer(s) - Name and UPI:
 
 I am aware that my employee named above as "Team Maintainer" is requesting creation of a code repository in the World Bank Group's Github.com site, for the purpose described above. This site allows for the publishing and public consumption of reproducible research and code. I agree that I have read the rules applicable to such access and agree to assist in upholding them to the best of my ability.
 
