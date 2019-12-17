@@ -39,8 +39,9 @@ DIME team members can join the [World Bank GitHub group](https://github.com/worl
 ### Create a GitHub account
 
 If you do not already have a GitHub account, create one at [this link](https://github.com/join).
-- While you can use any email address, we **recommend using a personal email when you sign up** so that you do not lose access to your GitHub account in case you were to change jobs.
-- There is no need to create a second account if you already signed up using a work email as you can add multiple secondary email addresses to your account, and later change which address is your primary email address. But we are recommending using a personal email when signing up in the first place, as we have had people lose access to their GitHub account after changing employer when using a work email as primary email.
+
+* While you can use any email address, we **recommend using a personal email when you sign up** so that you do not lose access to your GitHub account in case you were to change jobs.
+* There is no need to create a second account if you already signed up using a work email as you can add multiple secondary email addresses to your account, and later change which address is your primary email address. But we are recommending using a personal email when signing up in the first place, as we have had people lose access to their GitHub account after changing employer when using a work email as primary email.
 
 ### Join the World Bank GitHub group
 
@@ -136,8 +137,7 @@ Github account name:
     * **Organizer:** Send out the instructions below to all participants of the training copying the facilitator.
 
 > 1. If you do not already have a GitHub account, follow [these instructions](https://worldbank.github.io/dimeanalytics/git/#create-a-github-account)
-1. Send your GitHub username to **{organizer name and email}**
-  - **{facilitator name}** will invite you to the training repository after you have submitted your username. Accept that invitation before the training.
+1. Send your GitHub username to **{organizer name and email}**. **{facilitator name}** will then invite you to the training repository after you have submitted your username. Accept that invitation before the training.
 1. [Download and install GitHub Desktop](https://desktop.github.com/) (there are other desktop client but this training will use this one as it is free and approved for WB computers)
 1. Bring the computer where you installed GitHub Desktop to the training
 
