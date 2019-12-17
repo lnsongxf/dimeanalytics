@@ -38,7 +38,9 @@ DIME team members can join the [World Bank GitHub group](https://github.com/worl
 
 ### Create a GitHub account
 
-- If you do not already have a GitHub account, open one at [this link](https://github.com/join). While you can use any email address, we **recommend using a personal email when you sign up** so that you do not lose access to your GitHub account in case you were to change jobs. There is no need to create a second account if you already signed up using a work email as you can add multiple secondary email addresses to your account, and later change which address is your primary email address. But we are recommending using a personal email when signing up in the first place, as we have had people lose access to their GitHub account after changing employer when using a work email as primary email.
+If you do not already have a GitHub account, create one at [this link](https://github.com/join).
+- While you can use any email address, we **recommend using a personal email when you sign up** so that you do not lose access to your GitHub account in case you were to change jobs.
+- There is no need to create a second account if you already signed up using a work email as you can add multiple secondary email addresses to your account, and later change which address is your primary email address. But we are recommending using a personal email when signing up in the first place, as we have had people lose access to their GitHub account after changing employer when using a work email as primary email.
 
 ### Join the World Bank GitHub group
 
@@ -131,7 +133,16 @@ Github account name:
     * **Organizer:** If people are attending remotely: Set up WebEx
     * **Organizer:** If people are attending in person: Make sure that the room is a VC room with a screen
     * **Organizer:** If people are attending both remotely and in person, do both of the above!
-    * **Organizer:** Send out the instructions at the top of this page for what the participants needs before the training. Copy the facilitator on the email if that makes sense.
+    * **Organizer:** Send out the instructions below to all participants of the training copying the facilitator.
+
+> 1. If you do not already have a GitHub account, follow [these instructions](https://worldbank.github.io/dimeanalytics/git/#create-a-github-account)
+1. Send your GitHub username to **{organizer name and email}**
+  - **{facilitator name}** will invite you to the training repository after you have submitted your username. Accept that invitation before the training.
+1. [Download and install GitHub Desktop](https://desktop.github.com/) (there are other desktop client but this training will use this one as it is free and approved for WB computers)
+1. Bring the computer where you installed GitHub Desktop to the training
+
+
+
 * A day or two before the training:
     * **Organizer:** Make sure that all participants has a GitHub account and a Git Client (GitHub Desktop if it is a beginner training). Send all the GitHub account names to the facilitator
     * **Organizer:** Make sure that all participants are aware that this is an interactive training where it only make sense if everyone brings their own computer doe the training.
