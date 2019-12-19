@@ -123,7 +123,7 @@ External Collaborator Github.com Pilot MOU:
 I certify that I have read all the above and agree to the World Bank Group’s rules for accessing its GitHub.com repositories.
 Name:
 Github account name:
-
+Name of repository to be added to:
 ```
 
 ## DIME GitHub training materials
