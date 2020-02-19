@@ -118,9 +118,9 @@ External Collaborator Github.com Pilot MOU:
 7.	I agree to maintain backups of any data I upload into a repository locally, and that these are updated at least once a month while the project is still active.
 8.	I agree that I will keep my account username and password secure and will not share the user account with others.
 I certify that I have read all the above and agree to the World Bank Group’s rules for accessing its GitHub.com repositories.
-Name:
-Github account name:
-Name of repository to be added to:
+Name of external collaborator:
+Github username of external collaborator:
+Name of WB repository to be added to:
 ```
 
 ## DIME GitHub training materials
