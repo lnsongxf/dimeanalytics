@@ -66,25 +66,26 @@ I certify that I have read all the above and agree to the World Bank Group’s r
 
 Name:
 UPI:
-Github account name:
+Github username:
 ```
 
-### Creating a repository within the World Bank GitHub group
 
 - To create a repository in the World Bank GitHub group, send the following email to your manager and to [github@worldbank.org](mailto:github@worldbank.org) with the subject line "Approval Required: Create GitHub Repository [NAME]".
 
 ```
 Hi [MANAGER], can you please approve the following request for GitHub repository creation:
 
-Repository Name (use - instead of space if possible):
+Repository Name (if possible, use all lower case and "-" instead of "_" or space):
 
 Repository Description/Purpose (will be displayed on GitHub.com):
 
 Should this repo be public or private:
 
-World Bank GitHub Team Name (existing or to be created):
+World Bank GitHub Team Name (if possible, use all lower case and "-" instead of "_" or space):
 
-Who is (existing Teams) or will be (teams to be created) Team Maintainer(s) - Name and UPI:
+Does this team exist or does it need to be created:
+
+Who is (existing Teams) or will be (teams to be created) Team Maintainer(s) - Name, UPI and GitHub username:
 
 I am aware that my employee named above as "Team Maintainer" is requesting creation of a code repository in the World Bank Group's Github.com site, for the purpose described above. This site allows for the publishing and public consumption of reproducible research and code. I agree that I have read the rules applicable to such access and agree to assist in upholding them to the best of my ability.
 
@@ -118,9 +119,10 @@ External Collaborator Github.com Pilot MOU:
 7.	I agree to maintain backups of any data I upload into a repository locally, and that these are updated at least once a month while the project is still active.
 8.	I agree that I will keep my account username and password secure and will not share the user account with others.
 I certify that I have read all the above and agree to the World Bank Group’s rules for accessing its GitHub.com repositories.
+
 Name of external collaborator:
 Github username of external collaborator:
-Name of WB repository to be added to:
+URL of WB repository to be added to:
 ```
 
 ## DIME GitHub training materials
