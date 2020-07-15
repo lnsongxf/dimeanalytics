@@ -19,6 +19,9 @@ Custom roles are available on request.
 ## Help and Customer Support
 Extensive documentation and resources are available through the “Help” menu on the server. You can download the WBG Enterprise SurveyCTO documentation [here](https://github.com/worldbank/dimeanalytics/archive/surveycto.zip). Questions regarding the software itself (e.g. programming challenges, questions on particular features) should be addressed to SurveyCTO through the Support Center. Please make Support Center requests through the SurveyCTO server. Questions regarding the WBG Enterprise set-up specifically (start a new survey, request custom roles, etc) can be addressed to [dimeanalytics@worldbank.org](mailto:dimeanalytics@worldbank.org).
 
+## Installing SurveyCTO Desktop
+SurveyCTO Desktop is the most flexible and powerful way to use SurveyCTO. Once installed on your desktop or laptop computer, Desktop will help you to synchronize data between your computer and one or more SurveyCTO servers – and even between your computer and other computers, or between your computer and mobile devices. It provides a wide range of data export formats and options, plus: powerful tools for working offline; convenient access to the server console, Support Center, and other online resources; and more. You can directly install SurveyCTO Desktop on your device using [this installation file](https://docs.surveycto.com/desktop/). 
+
 ## Important Notes
 Because this is an enterprise installation, you are sharing server space with all other surveys. For the enterprise installation to work smoothly, please make sure to follow these rules; they will be enforced by administrators.
 
